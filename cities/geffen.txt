@@ -26,192 +26,192 @@
 
 geffen,59,143,0	script	Meera	91,{
 	mes "[Meera]";
-	mes "Welcome to Geffen,";
-	mes "the City of Magic!";
+	mes "Bienvenido a Geffen.";
+	mes "¡La Ciudad de la Magia!";
 	next;
 	mes "[Meera]";
-	mes "I don't know much about magic, but do you know what tastes magical? ^CC6600Honey^000000!";
+	mes "Yo no sé mucho sobre la magia, pero ¿sabes lo que tiene un sabor mágico? ^CC6600Honey^000000!";
 	next;
 	mes "[Meera]";
-	mes "It's soooo sweet and delicious. I'm not sure if it's an aphrodisiac, but I know for a fact that it will relieve you of fatigue and help you recover from wounds!";
+	mes "Es taaaan dulce y deliciosa, no estoy seguro si es un afrodisíaco, pero si sé, y es un hecho, que te libera de la fatiga y ¡ayuda a recuperarte de tus heridas!";
 	next;
 	mes "[Meera]";
-	mes "Hornets living in the grasslands spend their lives gathering nectar at the Queen Bee's command. Honey is made from the nectar they gather.";
+	mes "Los Hornets viven en los prados, dedicando sus vidas a la recolección de néctar bajo las órdenes de la Queen Bee. La Honey está hecha del néctar que recolectan.";
 	next;
 	mes "[Meera]";
-	mes "But that's not all. There's a special kind of honey that's made for only Queen Bees to eat:";
-	mes "^CC6600Royal Jelly^000000!";
+	mes "Pero eso no es todo. Existe un tipo especial de Honey que está hecha únicamente para que la Queen Bee pueda comer.";
+	mes "^CC6600Royal Jelly^000000! ";
 	next;
 	mes "[Meera]";
-	mes "Nothing can compare to the luscious flavor of Royal Jelly. And I think it's even better for you than ordinary Honey!";
+	mes "Nada se puede comparar con el delicioso sabor del Royal Jelly. Y creo que es mucho mejor que la Honey normal.";
 	close;
 }
 
 geffen,156,190,0	script	Orwalk	82,{
 	mes "[Orwalk]";
-	mes "...Interesting.";
-	mes "Most intriguing.";
-	mes "Oh! Let me tell you";
-	mes "this marvelous story~";
+	mes "...Interesante";
+	mes "Muy intrigante";
+	mes "¡Oh! Déjame contarte";
+	mes "está maravillosa historia~";
 	next;
 	mes "[Orwalk]";
-	mes "While I was researching magic, I discovered this mysterious scroll. It describes this tree named Yggdrasil.";
+	mes "Cuando investigaba la Magia, descubrí este misterioso Pergamino. En él, se describe un árbol llamado Yggdrasil.";
 	next;
 	mes "[Orwalk]";
-	mes "The leaves, seeds and fruit of Yggdrasil link every living thing in this world. According to this scroll, Yggdrasil is also involved in the creation of the world.";
+	mes "Las hojas, semillas y frutas del  Yggdrasil están conectadas con cada cosa viviente del mundo. De acuerdo con el Pergamino, Yggdrasil está involucrado en la creación del mundo.";
 	next;
 	mes "[Orwalk]";
-	mes "Speaking of which, I've also heard of a rumor about a miraculous tree in some land near Comodo. They must be connected, I'm sure of it!";
+	mes "Hablando de eso, he escuchado un rumor sobre un árbol milagroso en algún lugar cerca de Comodo. Deben de estar conectados, estoy seguro de eso.";
 	close;
 }
 
 geffen_in,164,109,0	script	Wizard Stanza	64,{
 	mes "[Stanza]";
-	mes "I sense the presence of a mighty spirit. Can it be you...?";
+	mes "Detecto la presencia de un espíritu poderoso. ¿Podrías ser tú...?";
 	next;
 	mes "[Stanza]";
 	if (BaseJob == Job_Mage)
-		mes "It seems that you are trained in the mystic arts. Magic... Its power is governed by the law of cause and effect.";
+		mes "Al parecer, estás entrenado en las artes místicas. Magia... Su poder esta gobernado por la ley de la acción y reacción";
 	else if (BaseJob == Job_Acolyte) {
-		mes "Ah...";
-		mes "I see that you wield holy power in one way or another. I suppose Holy power may be considered one form of mystical energy.";
+		mes "Ah... ";
+		mes "Veo que manejas la energía sacra de una manera u otra. Debo suponer que el poder Sacro es considerado una forma de energía mística.";
 	}
 	else if (Class == Job_Novice)
-		mes "Although you may not be able to use magic or any other kind of powerful skills for now, this knowledge may be helpful in the future, young Novice...";
+		mes "Aunque,  por ahora, no puedes manejar la magia o ninguna otra habilidad poderosa, Este conocimiento puede ser de ayuda en el futuro, Joven Novato....";
 	else 
-		mes "Although you are not formally trained in the use of magic, you use skills which draw upon otherworldly energies, whether you know it or not...";
+		mes "Aunque no estás entrenado formalmente en el uso de la magia, usas técnicas que consumen energías de otros mundos, lo sepas o no...";
 	next;
 	mes "[Stanza]";
-	mes "If you use mystic energy for the purpose of harming others, or to defy the rules set by Mother Nature, that power will naturally be turned against you. Remember, you reap what you sow.";
+	mes "Si usas la energía mística con el fin de hacer daño a otros o desafiar las leyes de la Madre Naturaleza, ese poder, naturalmente, se volverá contra ti. Recuerda, recoges lo que siembras.";
 	next;
 	mes "[Stanza]";
-	mes "But there is an item that can protect the caster from ill consequence, allowing the safe use of certain magics. These are the shining, mystical stones known as Gemstones.";
+	mes "Pero existe un ítem, que protege al que la usa de esas consecuencias, permitiendo el uso seguro de ciertas magias. Son las brillantes piedras místicas conocidas como Gemstones.";
 	next;
 	mes "[Stanza]";
-	mes "Gemstone...";
-	mes "If you wish to use your powers to the fullest, remember this item.";
+	mes "Gemstone... ";
+	mes "Si quieres usar esta energía al máximo, recuerda este ítem.";
 	close;
 }
 
 geffen,147,26,0	script	Ralphie	97,{
 	mes "[Ralphie]";
-	mes "Somewhere in this world, there is a rare Staff which can transform psychic energy into physical force, endowing its owner with ^990000destructive power^000000...";
+	mes "En alguna parte de este mundo, existe un Staff raro que puede convertir la energía psíquica en fuerza física, dándole a su dueño con ^990000un poder destructivo^000000...";
 	next;
 	mes "[Ralphie]";
-	mes "With that, anyone could be as strong as Hercules... Even a weakling like me! Hahahahahah,";
-	mes "I must have it!";
+	mes "Con eso, cualquiera puede ser tan fuerte como Hércules... ¡Incluso alguien tan débil como yo! Hahahahahah,";
+	mes "¡Debo conseguirlo!";
 	next;
 	Emotion e_gasp;
 	mes "[Ralphie]";
-	mes "...Good Heavens!";
-	mes "Since when were";
-	mes "you listening?";
+	mes "¡...Gracias al cielo!";
+	mes "¿Cuánto hace que estás";
+	mes "escuchando?";
 	next;
 	mes "[Ralphie]";
-	mes "Did you happen";
-	mes "to hear any of that?";
-	mes "Muhwaha... ha. Ha.";
+	mes "¿Escuchaste algo";
+	mes "de eso?";
+	mes "Muhwaha... ha. Ha. ";
 	next;
 	mes "[Ralphie]";
-	mes "Well...";
-	mes "I didn't say anything. But if";
-	mes "I did, forget all about it,";
-	mes "whatever it was~";
+	mes "Bueno...";
+	mes "Yo no dije nada. Pero si";
+	mes "lo hice, olvídalo todo";
+	mes "fuera lo que fuera~";
 	next;
 	mes "[Ralphie]";
-	mes "...Boy, this is awkward.";
+	mes "...Chico, esto es tonto.";
 	close;
 }
 
 geffen,111,48,0	script	Stacey	101,{
 	if (getequipid(1) == 2299) {
 		mes "[Stacey]";
-		mes "Oh...!";
-		mes "Is that an Orc Helm you're wearing?! That's so cool! Wow...";
+		mes "¡Oh...! ";
+		mes "¿Eso que llevas es un Orc Helm?! ¡Alucinante! Wow...";
 		next;
 		mes "[Stacey]";
 		if (sex) {
-			mes "You look so...";
-			mes "Rugged and manly~";
+			mes "Pareces tan...";
+			mes "rudo y masculino.";
 		}
 		else {
-			mes "Oooh~!";
-			mes "I'm so jealous!";
+			mes "¡Oooh~! ";
+			mes "¡Qué envidia!";
 		}
 		close;
 	}
 	else if (getequipid(1) == 5094) {
 		mes "[Stacey]";
-		mes "Oh...";
-		mes "Wow...";
+		mes "Oh... ";
+		mes "Wow... ";
 		next;
 		mes "[Stacey]";
-		mes "That's...";
-		mes "That's a Helmet";
-		mes "of Orc Hero!";
+		mes "Ese...";
+		mes "Ese Helmet es...";
+		mes "¡del Orc Hero!";
 		next;
 		mes "[Stacey]";
 		if (sex) {
-			mes "It's...";
-			mes "It's like you're surrounded by this incredibly masculine aura! Oooh~! You must be irresistable to all the girls!";
+			mes "Es...";
+			mes "Es como si estuvieras rodeado de una increíble aura de masculinidad ¡Oooh~! ¡Debes de ser irresistible para todas las chicas!";
 			next;
 			Emotion e_lv;
 			mes "[Stacey]";
-			mes "And I'm no exception.";
+			mes "Y yo no soy una excepción.";
 		}
 		else {
-			mes "Goodness, you must be so strong!";
-			mes "But I thought only members of the Orc Tribe could wear those?";
+			mes "Dios santo, ¡debes ser muy fuerte!";
+			mes "Pero, ¿creía que sólo los pertenecientes a la Orc Tribe pueden usarlos?";
 		}
 		close;
 	}
 	else {
 		mes "[Stacey]";
-		mes "Hello~!";
-		mes "Oh, aren't you";
-		mes "an adventurer?";
+		mes "¡Hola~!";
+		mes "Oh, ¿tú no eres";
+		mes "un aventurero?";
 		next;
 		mes "[Stacey]";
-		mes "Have you ever seen any Orcs from the Demi-Human tribe? If you go down southward from here, I think you can find Orcs in the deep forest.";
+		mes "¿Has visto algún Orc de la tribu Demi-Human? Si vas hacia el sur desde aquí, creo que podrás encontrar Orcs en las profundidades del bosque.";
 		next;
 		mes "[Stacey]";
-		mes "I hear that Orcs have their own culture and language, supposedly just like us humans. Does that mean Orcs go on dates...?";
+		mes "He escuchado que los Orcs tienen su propia cultura y lenguaje, supuestamente son como los humanos. ¿Significa eso que los Orcs también tienen refranes...?";
 		next;
 		mes "[Stacey]";
-		mes "You know, where they tenderly whisper sweet nothings and then... Oh! I really want to know!";
+		mes "Sabes, donde escuchas esos hermosos y dulces susurros y entonces...¡Oh! ¡En verdad me gustaría saberlo!";
 		close;
 	}
 }
 	
 geffen_in,34,170,0	script	Theodore	47,{
 	mes "[Theodore]";
-	mes "Hello!";
-	mes "Isn't it a";
-	mes "wonderful";
-	mes "day today?";
+	mes "¡Hola!";
+	mes "¿No es un";
+	mes "día maravilloso";
+	mes "hoy?";
 	next;
 	mes "[Theodore]";
-	mes "Well, I wouldn't know. I've been studying too hard to become a Mage. I've been staying up all night, agonizing over anything that's magical.";
+	mes "Bueno, no sabría. He estudiado muy duro para convertirme en Mage. He pasado despierto toda la noche, obsesionado por todo lo que sea mágico.";
 	next;
 	mes "[Theodore]";
-	mes "*Sigh...*";
-	mes "I especially worry about all the drawbacks to using magic.";
+	mes "*Suspiro...*";
+	mes "Me preocupan especialmente todas las desventajas de usar la magia.";
 	next;
 	mes "[Theodore]";
-	mes "Oh darn! It was really annoying when a long-ranged enemy found me the last time I went exploring. That crummy monster disrupted the casting of all my spells! I didn't hit it at all!";
+	mes "Oh ¡Rayos! Fue muy molesto cuando me encontré un enemigo con ataques de largo alcance cuando fui a explorar. Ese maldito monstruo, ¡interrumpió todos mis hechizos!, ¡No lo pude golpear!.";
 	next;
 	mes "[Theodore]";
-	mes "After that, I realized I needed some sort of weapon to counter long-ranged attacks from enemies. Something that can attack from a distance...";
+	mes "Después de eso, me di cuenta que necesito un tipo de arma que pueda contrarrestar los ataques de larga distancia de los enemigos. Algo que pueda atacar a distancia...";
 	next;
 	mes "[Theodore]";
-	mes "Some sort of...";
-	mes "Sharp, piercing";
-	mes "projectile launcher, preferably made out of wood.";
+	mes "Algún tipo de...";
+	mes "Sharp, un lanzador";
+	mes "de proyectiles, preferiblemente hecho de madera.";
 	next;
 	mes "[Theodore]";
-	mes "But where could";
-	mes "I find something";
-	mes "like that?!";
+	mes "Pero ¿dónde podría";
+	mes "encontrar algo";
+	mes "como eso?";
 	close;
 }
 
@@ -220,56 +220,56 @@ geffen,146,148,4	script	Suspicious Guy	99,6,6,{
 
 OnTouch:
 	mes "[?]";
-	mes "^333333*Psssst!*";
-	mes "H-Hey you!";
-	mes "You wanna get your hands on some great stuff? Come on over!^000000";
+	mes "^333333*Psssst!* ";
+	mes "¡Ehhh tú!";
+	mes "¿Quieres poner tus manos en cosas grandiosas? ¡Ven aquí!^000000";
 	next;
 	mes "[Suspicious Guy]";
 	if (sex)
-		mes "Hey there tough guy. You look smart enough to recognize a bargain when it's right in front of your eyes.";
+		mes "Hey chico fuerte. ¡Pareces ser bastante listo para reconocer una ganga cuando la tienes delante!";
 	else
-		mes "Well, well, well. Aren't you a pretty girl. Today just happens to be your lucky day!";
+		mes "Bien, Bien, Bien; ¿no eres una chica preciosa? ¡Hoy puede ser tu día de suerte!";
 	next;
 	mes "[Suspicious Guy]";
-	mes "So just tell me what you want, and I'll cut you a deal from amongst my valuable, yet affordable, wares.";
+	mes "Así que dime qué es lo que quieres y hacemos un trato con mis impresionantes ofertas.";
 	next;
-	switch(select("Gimme some potion so I can recover HP.:Um, you got a Knife?:Don't you have a good Manteau?:Don't you have something besides this?")) {
+	switch(select("Dame un poco de pociónes para que pueda recuperar HP.:Umm, tienes un cuchillo:¿No tienes una buena Manteau:¿No tienes algo más que esto?")) {
 	case 1:
 		mes "[Suspicious Guy]";
-		mes "Ah, you into Potions, eh?";
-		mes "Yeah, I got the stuff!";
+		mes "Ah, ¿te interesan las Potions, eh?";
+		mes "Sí, ¡tengo mercancía!";
 		next;
 		mes "[Suspicious Guy]";
-		mes "Here it is! High quality Red Potion! It starts working right away once you take it. Once it hits your lips, you can't stop. This stuff is that good.";
+		mes "¡Aquí está! ¡Una Red Potion de alta calidad! Empiezan a funcionar tan pronto como la coges. Una vez que tocan tus labios no podrás parar. Esta mercancía es buena.";
 		next;
 		mes "[Suspicious Guy]";
-		mes "C'mon dude. This is the latest Red Potion. I got it from a close friend of a friend, you know, a real dependable source, and it's real cheap too. You can't pass this up!";
+		mes "Vamos amigo. Esta es la Red Potion más moderna. La conseguí de manos de un íntimo amigo de un amigo, una fuente de confianza, y también muy barata, ¡No puedes dejar pasar esta oportunidad!";
 		next;
-		select("Uh, can I buy White Potions instead?");
+		select("Uh, ¿no puedo comprar White Potions en su lugar?");
 		mes "[Suspicious Guy]";
-		mes "White Potions? Oh, those don't exist. But, er, if someone's selling that kind of stuff, bring it to me so I can, um, test the difference. But yeah, I got the real stuff.";
-		next;
-		mes "[Suspicious Guy]";
-		mes "You can heal all your wounds by drinking Red Potions! And I'll sell you one for just ^FF3333500 zeny^000000!";
+		mes "¿White Potions? Oh, Eso no existe. Pero, errr, si alguien vende ese tipo de producto, tráigamelo así, hum, probaré la diferencia. Pero claro, yo tengo el mejor producto.";
 		next;
 		mes "[Suspicious Guy]";
-		mes "Now, how cheap is that?! Since they're in such high demand, I can only sell you 100 of";
-		mes "them at a time.";
+		mes "¡Puedes curarte de todas las heridas bebiendo Red Potions! ¡Y te venderé una por sólo ^FF3333500 zeny^000000!";
+		next;
+		mes "[Suspicious Guy]";
+		mes "Así que, ¿cómo es de barato? Desde que son tan demandados sólo puedo venderte 100 de cada Puesto que esta tan alta la demanda puedo venderlo solo 100";
+		mes "a la vez...";
 		next;
 		while(1) {
 			input .@input;
 			if (.@input == 0) {
 				mes "[Suspicious Guy]";
 				if (sex)
-					mes "Ah duuuuuude~ You're breakin' my heart! I mean, at these prices, I'm practically performing charity!";
+					mes "Ah Amigooooo~ ¡Me rompes el corazón! Quiero decir, con estos precios, ¡prácticamente te los regalo!";
 				else
-					mes "W-waaaait! You didn't let me tell you the part about how Red Potions help you lose and gain weight in all the right places! Waaaaait!";
+					mes "¡E-esperaaaaa! No me dejas decirte la parte en que las Red Potions te ayudan a perder y ganar peso en el ¡lugar correcto! ¡Espereee!";
 				close;
 			}
 			else if (.@input > 100) {
 				mes "[Suspicious Guy]";
-				mes "Whoa...";
-				mes "I can't let you buy that many. I mean, it's not like, you know, there's a trace impurity in these Potions or anything like that...";
+				mes "Whoa... ";
+				mes "No puedo dejarte comprar tantas. Quiero decir, no es como, sabes, si hubiera algún tipo de impureza en las Potions o algo similar";
 				next;
 			}
 			else
@@ -278,13 +278,13 @@ OnTouch:
 		set .@Red_potion_hap,.@input * 500;
 		if (Zeny < .@Red_potion_hap) {
 			mes "[Suspicious Guy]";
-			mes "Oh maaan~";
-			mes "Are you";
-			mes "short on dough?";
-			mes "That's no good.";
+			mes "Vamos hombre~";
+			mes "¿No tienes";
+			mes "suficiente efectivo?";
+			mes "Eso no está bien";
 			next;
 			mes "[Suspicious Guy]";
-			mes "^333333Now I gotta find some other sucker to dump this junk on!^000000 *Ahem* I mean, come again!";
+			mes "^333333¡Ahora tengo que encontrar otro tonto para dejarle esta basura!^000000 *ejem* quise decir, ¡vuelve pronto!";
 			close;
 		}
 		set zeny,zeny-.@Red_potion_hap;
@@ -293,53 +293,53 @@ OnTouch:
 	case 2:
 		mes "[Suspicious Guy]";
 		if (sex) {
-			mes "What would a strong guy like you want a knife for? Those will just break under the force of your incredibly powerful swings!";
+			mes "¿Para qué quiere un cuchillo un tipo tan fuerte como tú? ¡Se romperá tan pronto lo muevas con tus golpes increíblemente poderosos!";
 			next;
 			mes "[Suspicious Guy]";
-			mes "Now...";
-			mes "What you really";
-			mes "need is a ^FF3333manly Dagger^000000.";
+			mes "Ahora...";
+			mes "Lo que realmente ";
+			mes "necesitas es una ^FF3333manly Dagger^000000.";
 		}
 		else {
-			mes "A nice lady like you? Come on now, kitchen knives are for old naggy wives and the hired help.";
+			mes "¿Una dulce señorita como tú? Venga, los cuchillos de cocina son los que usan las esposas viejas y criticonas.";
 			next;
 			mes "[Suspicious Guy]";
-			mes "Now...";
-			mes "What you really";
-			mes "need is a fine, exquisite";
-			mes "^FF3333French Dagger^000000 to match your beauty and elegance.";
+			mes "Ahora...";
+			mes "Lo que necesitas ";
+			mes "realmente es algo bueno, exquisito";
+			mes "^FF3333French Dagger^000000 que va con tu belleza y elegancia.";
 		}
 		next;
 		mes "[Suspicious Guy]";
-		mes "I call it...";
-		mes "The ^FF3333Main Gauche^000000! I invented it myself. And I'm only selling it for 9,400 zeny!";
+		mes "Lo llamo...";
+		mes "^FF3333Main Gauche^000000! lo inventé yo mismo. ¡Y sólo lo venderé por  9,400 zeny!";
 		next;
-		select("Aren't you going to give me a sheath too?");
+		select("¿No me dará una funda?");
 		mes "[Suspicious Guy]";
-		mes "A sheath?";
-		mes "Whoa, that's almost asking too much! Alright, alright...";
-		next;
-		mes "[Suspicious Guy]";
-		mes "Since I like you so much, I'm giving you a free sheath with your purchase! Now how's that";
-		mes "for a bargain?";
+		mes "¿Una funda?";
+		mes "¡Vaya! ¡Eso es demasiado! De acuerdo, de acuerdo...";
 		next;
 		mes "[Suspicious Guy]";
-		mes "There's no way you can pass this up! Now, how many do you want?";
+		mes "Bueno, como me has gustado, ¡voy a regalarte una funda con tu compra! Ahora, ¿no es una";
+		mes "ganga?";
+		next;
+		mes "[Suspicious Guy]";
+		mes "¡No hay forma de que lo dejes pasar! Así que, ¿cuántos quieres?";
 		next;
 		while(1) {
 			input .@input;
 			if (.@input == 0) {
 				mes "[Suspicious Guy]";
-				mes "Man, how many chances of a lifetime have you passed up? Man, I hope you win the lottery...";
-				mes "You'd probably";
-				mes "pass that up too.";
+				mes "Hombre, ¿cuántas oportunidades como esta tendrás en la vida? Hombre, espero que ganes la lotería....";
+				mes "Probablemente";
+				mes "también lo dejarás pasar.";
 				close;
 
 			}
 			else if (.@input > 100) {
 				mes "[Suspicious Guy]";
-				mes "Whoa!";
-				mes "I can't sell that many Daggers! That'll attract the Prontera Chiv--I mean, um, I was gonna donate some Daggers to... Hungry children?";
+				mes "¡Whoa! ";
+				mes "¡No puedo vender tantas Daggers! Esto atraerá al Prontera Chiv--Quero decir, um, iba a donar algunas Daggers a... ¿niños hambrientos?";
 				next;
 			}
 			else
@@ -348,8 +348,8 @@ OnTouch:
 		set .@Main_gauche_hap,.@input * 9400;
 		if (Zeny < .@Main_gauche_hap) {	
 			mes "[Suspicious Guy]";	
-			mes "Short on zeny?";
-			mes "When the greatest deal in your life is right before your eyes?! Tragic, truly tragic...";
+			mes "¿Tienes pocos zeny?";
+			mes "¡Cuando el mejor trato de tu vida está delante de tus ojos! Trágico, verdaderamente trágico...";
 			close;
 		}
 		set zeny,zeny-.@Main_gauche_hap;
@@ -358,40 +358,40 @@ OnTouch:
 	case 3:
 		mes "[Suspicious Guy]";
 		if (sex)
-			mes "A Manteau? That's old news! You know what's the latest in protective armors?";
+			mes "¿Un Manteau? ¡Esa es una noticia antigua! ¿Sabes lo que es lo último en armaduras de protección?";
 		else
-			mes "Now why would such a beautiful woman wear something out of style? You know what would make you look even better?";
+			mes "Pero ¿por qué una mujer tan hermosa usaría algo con tan poco estilo? ¿Sabes lo que te haría verte mucho mejor?";
 		next;
 		mes "[Suspicious Guy]";
-		mes "That's right!";
-		mes "A Hood! Wearing one of those is the quickest way to win respect these days!";
+		mes "¡Eso está bien!";
+		mes "¡Un Hood! ¡Usar uno de esos es la manera más rápida de ganarse el respeto!";
 		next;
 		mes "[Suspicious Guy]";
-		mes "If you've got a Hood on, monsters will fear you and run away in terror! And check out this sturdy fabric. I can pull it all I want and it won't tear!";
+		mes "Si tienes un Hood, los monstruos te tendrán miedo y ¡huirán aterrorizados! Observa está tela robusta. ¡Puedo golpearlo con lo que quiero y no rasgará!";
 		next;
-		select("This hood has no drawstrings...? ");
+		select("¿Este Hood no tiene ningún cordón...? ");
 		mes "[Suspicious Guy]";
-		mes "Haha! What are you saying? You don't need drawstrings! The space age Rayon and Nylon and Krypton fibers keep the Hood secure on your head!";
-		next;
-		mes "[Suspicious Guy]";
-		mes "Man...";
-		mes "So much technology was invested into this Hood. Can you believe I'm only selling it for 930 zeny?";
+		mes "¡Haha! ¿Qué es lo que estás diciendo? ¡No necesitas cordones! ¡Las fibras de Rayon, Nylon y Krypton mantienen el Hood tu cabeza!";
 		next;
 		mes "[Suspicious Guy]";
-		mes "Clearly, this is the deal of the century. So how many do you want?";
+		mes "Hombre...";
+		mes "En el Hood se ha invertido mucha tecnología. ¿Puedes creerte que lo vendo por sólo 930 zeny?";
+		next;
+		mes "[Suspicious Guy]";
+		mes "Está claro, este es el trato del siglo. Así que ¿cuántos quieres?";
 		next;
 		while(1) {
 			input .@input;
 			if (.@input == 0) {
 				mes "[Suspicious Guy]";
-				mes "Awww...";
-				mes "It wasn't because of the whole drawstrings thing, was it?";
+				mes "Awww... ";
+				mes "No es porque los cordones sanos, ¿era eso?";
 				close;
 			}
 			else if (.@input > 100) {
 				mes "[Suspicious Guy]";
-				mes "Whoa~!";
-				mes "I can't sell you that many! What are you trying to do, take advantage of me?";
+				mes "¡Whoa~! ";
+				mes "¡No puedo venderte tantos! ¿Qué es lo que estás tratando de hacer, aprovecharte de mi?";
 				next;
 			}
 			else
@@ -400,8 +400,8 @@ OnTouch:
 		set .@Hood__hap,.@input * 930;
 		if (zeny < .@Hood__hap) {
 			mes "[Suspicious Guy]";
-			mes "Oh nuts...";
-			mes "Short on zeny, eh?";
+			mes "Oh vaya...";
+			mes "tienes poco zeny, ¿eh?";
 			close;
 		}
 		set zeny,zeny-.@Hood__hap;
@@ -409,45 +409,45 @@ OnTouch:
 		break;
 	case 4:
 		mes "[Suspicious Guy]";
-		mes "Man...";
-		mes "You sure like to ask for the impossible. Well, let me tell you right now. No other Merchant in the world sells the goods only I can offer.";
+		mes "Hombre...";
+		mes "Seguramente eres de los que intentan lo imposible. Bueno, déjame decírtelo ahora. Ningún otro Merchant del mundo te venderá las cosas que sólo yo te ofrezco.";
 		next;
 		mes "[Suspicious Guy]";
-		mes "You just gotta believe me!";
+		mes "¡Debes creerme!";
 		close;
 	}
 	mes "[Suspicious Guy]";
-	mes "No need to look anywhere else at all when I clearly have the best items around!";
+	mes "¡No necesitas buscar en ningún otro sitio cuando tengo los mejores ítems!";
 	next;
 	mes "[Suspicious Guy]";
-	mes "Please come back sometime, and buy more of my stuff. I love a customer who knows what they want! Hehe~";
+	mes "Por favor regresa alguna vez, y compra más de mis mercancías. ¡Adoro los clientes que saben lo que quieren! Hehe~";
 	close;
 }
 
 geffen_in,22,125,1	script	Crumpler	52,{
 	mes "[Crumpler]";
-	mes "Ooooh~!";
-	mes "You sure are dressed pretty,";
-	mes "ya fancy schmancy Mage!";
+	mes "¡Ooooh~! ";
+	mes "Te aseguro que vistes bien.";
+	mes "¡Tú Mago de fantasía!";
 	next;
 	if (Class == Job_Mage) {
-		mes "^3355FFSomeday, you swear to yourself, you will have your bloody revenge on this belligerent drunk for besmirching the proud Mage profession. Someday...^000000";
+		mes "^3355FFAlgún día, te jurarás a ti mismo, tendrás tu venganza sangrienta en ese borracho peleón que deshonró la orgullosa profesión de Mage. Algún día...^000000";
 		close;
 	}
 	else if (Class == Job_Wizard) {
-		select("Actually, I'm a Wizard.");
+		select("De hecho, soy un Wizard.");
 		mes "[Crumpler]";
-		mes "I'm so scared!";
-		mes "A Wizard?! Bwahaha!";
+		mes "¡Estoy tan asustado!";
+		mes "¡¿Un Wizard?! ¡Bwahaha!";
 		next;
 		mes "[Crumpler]";
-		mes "Everyone knows Wizards are all intelligence and no strength! Come on, smart man! Show me how tough you are!";
+		mes "¡Todos saben que los Wizards son pura inteligencia y nada de fuerza! Vamos, ¡chico listo! ¡Enséñame lo rudo que eres!";
 		next;
-		switch(select("Meteor Storm!:Lord of Vermilion!:Show Mercy.")) {
+		switch(select("Meteor Storm!:Lord of Vermilion!:Mostrar Misericordia.")) {
 		case 1:
 			mes "[Crumpler]";
-			mes "Huh?";
-			mes "What'd you just say?";
+			mes "¿Huh? ";
+			mes "¿Qué has dicho?";
 			next;
 			mes "[Crumpler]";
 			mes "...";
@@ -457,227 +457,227 @@ geffen_in,22,125,1	script	Crumpler	52,{
 			mes "......";
 			next;
 			mes "[Crumpler]";
-			mes "Ooooooooh";
-			mes "crraaaap!";
+			mes "Ooooooooh ";
+			mes "¡Carajo! ";
 			Emotion e_gasp;
 			next;
 			mes "[Crumpler]";
-			mes "Help meeeee!";
+			mes "¡Ayudenmeeeee!";
 			specialeffect EF_METEORSTORM;
 			close;
 		case 2:
 			mes "[Crumpler]";
-			mes "Hahahahaah!";
-			mes "Silly Wizard! Only a monster like Baphomet can handle a big spell like th--";
+			mes "¡Hahahahaah! ";
+			mes "¡Tonto Wizard! Sólo un monstruo como el Baphomet puede manipular un gran hechizo como es--";
 			next;
 			mes "[Crumpler]";
-			mes "Oh sweet lord...";
-			mes "You're serious...";
+			mes "Oh dulce señor......";
+			mes "Estás en serio";
 			next;
 			specialeffect EF_LORD;
 			mes "[Crumpler]";
-			mes "ARRRRRGH~!";
-			mes "IT BUUUURNS!";
+			mes "¡ARRRRRGH~! ";
+			mes "¡ESO QUEMAAAA!";
 			close;
 		case 3:
 			mes "["+strcharinfo(0)+"]";
-			mes "No...";
-			mes "I can only use";
-			mes "my powers for good.";
+			mes "No... ";
+			mes "Sólo puedo usar";
+			mes "mis poderes para el bien";
 			next;
 			mes "[Crumpler]";
-			mes "Haw haw!";
-			mes "Good...";
-			mes "For nothing!";
+			mes "¡Haw haw! ";
+			mes "Bien. . . .";
+			mes "¡Para nada!";
 			close;
 		}
 	}
 	else if (Class == Job_Sage) {
-		select("Actually, sir, I'm a Sage.");
+		select("De hecho, señor, soy un Sage.");
 		mes "[Crumpler]";
-		mes "A...";
-		mes "Sage?";
+		mes "¿Un...";
+		mes "Sage? ";
 		Emotion e_What;
 		next;
 		mes "[Crumpler]";
-		mes "I don't know what that is. But I guess it can't be half as bad as a Mage.";
+		mes "No sé que es eso. Pero espero que no sea la mitad de malo de un Mage.";
 		next;
 		mes "[Crumpler]";
-		mes "Soooo...";
-		mes "Wanna drink with me?";
+		mes "Así que...";
+		mes "¿Quieres beber conmigo?";
 		close;
 	}
 	else {
 		mes "[Crumpler]";
-		mes "Wait a sec...";
-		mes "You're not a Mage!";
-		mes "J-just how drunk am I?!";
+		mes "Espera un segundo...";
+		mes "¡Tú no eres un Mage!";
+		mes "¡¿Qué tan borracho estoy?!";
 		next;
 		mes "[Crumpler]";
-		mes "Man, I hate Mages with a passion! Always studying and chanting and making taxes high and stuff...";
+		mes "Hombre, ¡odio a los Mages con pasión! Siempre estudiando y cantando y haciendo tributos grandes y complicados...";
 		next;
 		mes "[Crumpler]";
-		mes "Taking our jobs, censoring the media, ruining our education system, causing air pollution, starting wars, making rap music...";
+		mes "Cogiendo nuestros trabajos, censurando los medios, arruinando nuestro sistema de educación, causando la contaminación del aire, empezando guerras, haciendo música rap...";
 		close;
 	}
 }
 
 geffen_in,59,61,1	script	Skyler	61,{
 	mes "[Skyler]";
-	mes "Hello hello.";
-	mes "You're not looking";
-	mes "for Eric, are you?";
+	mes "Hola Hola.";
+	mes "¿Tú no estas buscando";
+	mes "a Eric, no?";
 	next;
-	if (select("Eric? Who's that?:Yes. Yes, I am.") == 1) {
+	if (select("Eric? Quien es el?:Si, lo hago.") == 1) {
 		mes "[Skyler]";
-		mes "Oh, I see. He's just some guy in the room to the left of me. He's always working on some sort of project.";
+		mes "Oh, ya veo. Es el chico de la habitación de la izquierda. Siempre está trabajando en algún proyecto.";
 		next;
 		mes "[Skyler]";
-		mes "Something to do with these magic sort of Ear Muffs. I guess he's been looking for investors to help him finish building whatever he's making.";
+		mes "Tiene algo que ver con esa especie de magia de los Ear Muffs. Supongo que está buscando inversores para que le ayuden a terminarlo... quien sabe lo que estará haciendo.";
 		close;
 	}
 	mes "[Skyler]";
-	mes "Oh, alright. You can find Eric in the room to the left of me. He'll probably be happy to know someone is interested in what he's trying to build.";
+	mes "Oh, vale. Puedes encontrar a Eric en el cuarto de mi derecha. Probablemente se alegrará de saber que alguien está interesado en lo que está haciendo.";
 	next;
 	mes "[Skyler]";
-	mes "From what I remember, he seemed really discouraged, thinking he'd never be able to finish his little project.";
+	mes "Por lo que recuerdo, parecía realmente desanimado, pensando que nunca podría finalizar su pequeño proyecto...";
 	next;
 	mes "[Skyler]";
-	mes "I'm glad to hear you've come this way to help out that young fellow.";
+	mes "Me alegro de escuchar que hecho todo este camino para ayudar a ese joven...";
 	close;
 }
 
 geffen_in,27,134,5	script	Waitress#elen	91,{
 	mes "[Elenore]";
-	mes "This place...";
-	mes "Certainly has";
-	mes "atmosphere.";
+	mes "Este lugar. . .";
+	mes "Ciertamente tiene una";
+	mes "atmósfera.";
 	next;
 	mes "[Elenore]";
-	mes "We've got some kind of Fortune Teller that's always hanging around in the corner, and a loud, belligerent drunk who's always picking on Mages.";
+	mes "Tenemos algún tipo de Fortune Teller que siempre anda por esa esquina y un borracho ruidoso y peleón que siempre está molestando a los Mages.";
 	next;
 	mes "[Elenore]";
-	mes "So...";
-	mes "What can";
-	mes "I do for you?";
+	mes "Así que...";
+	mes "¿Qué puedo";
+	mes "hacer por ti?";
 	next;
-	if (select("May I have a drink?:Is there any interesting gossip?") == 1) {
+	if (select("¿Puedo tomar una copa?:¿Hay algún chisme interesante?") == 1) {
 		mes "[Elenore]";
-		mes "Well...";
-		mes "If you're looking for alcohol, King Tristram III outlawed it a while ago. Now I hear they only serve it in certain places.";
+		mes "Bueno...";
+		mes "Si estás buscando alcohol, King Tristram III hace tiempo que fue prohibido. Escuché que sólo lo sirven en ciertos sitios.";
 		next;
 		mes "[Elenore]";
-		mes "Still, people manage to get drunk off the imitation drinks that we serve here. I guess it's all psychological.";
+		mes "Sin embargo, la gente se emborracha con las imitaciones que sirven aquí. Supongo que todo es psicológico.";
 		next;
 		mes "[Elenore]";
-		mes "I reeeeally want to be able to visit that place where they serve real drinks. I hear it's just like paradise!";
+		mes "yo reaaaaalmenteeee quiero tener la posibilidad de visitar el lugar donde sirven bebidas reales. ¡He oído que es como el paraíso!";
 		close;
 	}
 	switch(rand(1,4)) {
 	case 1:
 		mes "[Elenore]";
-		mes "Gossip...?";
-		mes "Well, I've heard that they're opening a new Airship Service";
-		mes "in Juno!";
+		mes "¿Chismorreo...?";
+		mes "Bueno, ¡he oído que abrieron un nuevo Airship Service.";
+		mes "en Juno!";
 		next;
 		mes "[Elenore]";
-		mes "Or at least, they're planning to. The airship isn't really ready to take off just yet. In the meantime, there's some weird customer representative over there who's offering a teleport service.";
+		mes "O al menos, que lo están planeando. El Airship aún no está listo para volar. Mientras, hay algún representante de clientes que está ofreciendo un Teleport Service.";
 		next;
 		mes "[Elenore]";
-		mes "It seems like Kafra Corporation may finally have a competitor! Then again, I don't think many girls are as attractive as the Kafra Employees...";
+		mes "¡Parece que por fin hay un competidor para la Kafra Corporation! Una vez más, no creo que muchas chicas sean tan atractivas como las Kafra Employees...";
 		break;
 	case 2:
 		mes "[Elenore]";
-		mes "Have you heard?";
-		mes "There are some new fashions floating around the Rune-Midgarts Kingdom!";
+		mes "¿Has oído?";
+		mes "¡Hay nuevas modas flotando por el Rune-Migdard Kingdom!";
 		next;
 		mes "[Elenore]";
-		mes "People have been coming in, wearing some cute new hats. There was this cute Teddy Bear Hat I've never seen before, and a girl came in wearing these black Kitty Ears...";
+		mes "La gente está empezando a usar, algunos preciosos sombreros nuevos. También está ese precioso Teddy Bear Hat que nunca había visto antes y una chico llevaba esos Black Kitty Ears...";
 		next;
 		mes "[Elenore]";
-		mes "Of course, not every popular style suits my taste. I mean, I saw someone walking around with a Mushroom on their head. And I hear someone has been making hats made out of Fish?";
+		mes "Por supuesto, no todos los trajes de moda son de mi gusto. Quiero decir, vi a alguien caminando por aquí con un Mushroom en la cabeza. ¡Y he oído que alguien hace sombreros de Fish!";
 		next;
 		mes "[Elenore]";
-		mes "I guess those";
-		mes "kinds of hats are too";
-		mes "artistic for my taste.";
+		mes "Supongo que ese";
+		mes "tipo de sombrero es demasiado...";
+		mes "artísticos para mi gusto.";
 		break;
 	case 3:
 		mes "[Elenore]";
-		mes "Gossip, eh?";
+		mes "Chismorreos, ¿eh?";
 		next;
 		mes "[Elenore]";
-		mes "Well...";
-		mes "I hear there's this person somewhere in Rune-Midgard...";
+		mes "Bueno...";
+		mes "Oí que hay una persona en algún lugar de Rune-Midgard...";
 		next;
 		mes "[Elenore]";
 		if (sex)
-			mes "Tell me, have you ever heard of "+strcharinfo(0)+"? He's supposed to be the suavest hero around!";
+			mes "Cuéntame, ¿has oído algo de eso? "+strcharinfo(0)+"¡Se supone que es el héroe más encantador del lugar!";
 		else
-			mes "Have you ever heard of "+strcharinfo(0)+"? People say she's one of the prettiest girls in all of Rune-Midgard!";
+			mes "¿Has oído hablar de eso? "+strcharinfo(0)+"¡La gente dice que es una de las chicas más bonitas de todo Rune-Midgard!";
 		break;
 	case 4:
 		switch(rand(1,2)) {
 		case 1:
 			mes "[Elenore]";
-			mes "Gossip, eh?";
-			mes "W-wait...";
+			mes "Chismorreo, ¿eh?";
+			mes "E-espera...";
 			next;
 			mes "[Elenore]";
-			mes "Ugh...";
-			mes "Ooooh...";
-			mes "My he-head...";
-			mes "It huuurts...";
+			mes "Ugh... ";
+			mes "Ooooh... ";
+			mes "Mi c-cabeza...";
+			mes "me dueleee...";
 			next;
 			mes "[William's Spirit]";
-			mes "^990000You get the hell away from my daughter, low-life, before I sell your organs for zeny!";
-			mes "You hear me?!^000000";
+			mes "^990000Tú aléjate de mi hija mediocre, ¡antes de que venda tus órganos por zeny!";
+			mes "¡¿Me escuchaste?!^000000";
 			next;
 			mes "[Elenore]";
-			mes "*Cough*";
-			mes "Oh...!";
-			mes "Sorry about that!";
-			mes "I must be coming";
-			mes "down with the flu!";
-			mes "...Or something.";
+			mes "*Cof*";
+			mes "¡Oh...! ";
+			mes "¡Perdón por eso!";
+			mes "¡Debí de contraer";
+			mes "la gripe!";
+			mes "...O algo";
 			next;
-			mes "^3355FFWeird...";
-			mes "Her voice was";
-			mes "really deep for";
-			mes "a minute there...";
+			mes "^3355FFextraño...";
+			mes "Su voz era";
+			mes "verdaderamente profunda";
+			mes "hace un minuto...";
 			break;
 		case 2:
 			mes "[William's Spirit]";
-			mes "^990000Hey you sex crazed bastard!! Stop looking at my daughter like that before I rip out your eyes, and eat them with pasta!^000000";
+			mes "^990000¡Hey estás obsesionado con el sexo bastardo! Deja de mirar a mi hija antes de que te arranque los ojos y ¡me los coma con pasta!^000000";
 			next;
 			mes "["+strcharinfo(0)+"]";
 			if (sex) {
-				mes "Huh...?";
-				mes "C-come again?";
+				mes "¿Huh...? ";
+				mes "¿Vienes de nuevo?";
 				next;
 				mes "[Elenore]";
-				mes "Huh...?";
-				mes "Oh, Dad must have possessed me again. It happens to me and my sister all the time.";
+				mes "¿Huh...? ";
+				mes "Oh, papá se pone posesivo conmigo otra vez. Nos pasa a mí y a mi hermana todo el tiempo.";
 				next;
 				mes "["+strcharinfo(0)+"]";
-				mes "No kidding?";
-				mes "Huh. Total bummer.";
+				mes "¿En serio?";
+				mes "Huh. Un desastre total.";
 				next;
 				mes "[Elenore]";
-				mes "Yeah...";
-				mes "Tell me about it.";
+				mes "Sí...";
+				mes "Cuéntamelo.";
 				break;
 			}
 			else {
-				mes "W-waaaaait~";
-				mes "But, But I'm a girl!";
+				mes "E-espeeeeeeeeeera~";
+				mes "Pero, pero ¡soy una chica!";
 				next;
 				mes "[William's Spirit]";
-				mes "^990000What part of ^FF0000I will whup you where you stand^000000 ^990000do you not understand?! Now, quit it you pervert!^000000";
+				mes "^990000¿Qué parte de ^FF0000 que te echaré de donde estés^000000 ^990000 no entiendes? Ahora, ¡lárgate pervertido!^000000";
 				next;
-				mes "^3355FFWaaah~!";
-				mes "How did she";
-				mes "get all scary?!^000000";
+				mes "^3355FF¡Waaah~!";
+				mes "¿De qué está";
+				mes "tan asustada?!^000000";
 				break;
 			}
 		}
@@ -688,75 +688,75 @@ geffen_in,27,134,5	script	Waitress#elen	91,{
 
 geffen_in,70,67,3	script	Waitress#elise	90,{
 	mes "[Elisa]";
-	mes "Hello there~";
-	mes "Can I help you";
-	mes "with anything?";
+	mes "Hola a los de aquí~";
+	mes "¿Te puedo ayudar";
+	mes "en algo?";
 	next;
-	if (select("May I ask for a drink?:Is there any interesting gossip lately?") == 1) {
+	if (select("¿Puedo pedir una bebida?:¿Hay algún chisme interesante últimamente?") == 1) {
 		mes "[Elisa]";
-		mes "A...";
-		mes "Drink?";
+		mes "Una...";
+		mes "¿bebida?";
 		next;
 		mes "[Elisa]";
-		mes "You know that we don't serve alcohol here anymore. We just have all these fake, flavorless drinks that have no effect. Yeah, they're pretty boring...";
+		mes "Sabes que no servimos alcohol. Lo único que tenemos son estas falsas e insípidas bebidas que no tienen ningún efecto. Yeah, son algo bastante aburrido...";
 		next;
 		mes "[Elisa]";
-		mes "We pretty much only serve water around here. That, and really bad alcoholic imitation drinks.";
+		mes "Por poco sólo podemos servir agua. Eso y una imitación a las bebidas alcohólicas muy mala.";
 		next;
 		mes "[Elisa]";
-		mes "It's horrible that King Tristram III outlawed alcohol in the kingdom! It's probably the only bad decision he's made throughout his entire reign!";
+		mes "¡Es horrible que el King Tristram III ilegalizara el alcohol en el reino! ¡Es, posiblemente, la única mala decisión que tomó en su reinado!";
 		close;
 	}
 	switch(rand(1,4)) {
 	case 1:
 		mes "[Elisa]";
-		mes "You know";
-		mes "what's so weird?";
+		mes "Sabes";
+		mes "¿es tan extraño?";
 		next;
 		mes "[Elisa]";
-		mes "I went down to the Prontera Sanctuary, and I could have sworn";
-		mes "that a Priest got married to a Priestess!";
+		mes "Fui al Prontera Sanctuary y ¡podría jurar que";
+		mes "un Priest se casó con una Priestess!";
 		next;
 		mes "[Elisa]";
-		mes "I really had no idea whether or not Priests could marry, but since King Tristram III was there himself,";
-		mes "I suppose that it's okay!";
+		mes "Verdaderamente que no tenía idea que los Priests podían casarse, pero desde que King Tristram III estuviera allí,";
+		mes "¡Supongo que está bien!";
 		break;
 	case 2:
 		mes "[Elisa]";
-		mes "I don't like to stereotype people, but haven't you noticed that Swordsmen and Knights";
-		mes "tend to be, you know...";
+		mes "No quiero estereotipar a la gente, pero no notaste que los Swordsmen y Knights";
+		mes "tiende a ser, sabes...";
 		next;
 		mes "[Elisa]";
-		mes "...INT challenged?";
-		mes "All they seem to know";
-		mes "is smashing things!";
+		mes "...¿carentes de INT?";
+		mes "Todo lo que parecen saber";
+		mes "es ¡golpear cosas!";
 		break;
 	case 3:
 		mes "[Elisa]";
-		mes "Rumors...?";
-		mes "Hmmmm, well...";
+		mes "¿Rumores...?";
+		mes "Hmmmm, bueno...";
 		next;
 		mes "[Elisa]";
-		mes "You know the name";
-		mes "of our kingdom, right?";
-		mes "The Rune-Midgarts Kingdom?";
+		mes "Sabes el nombre";
+		mes "de nuestro reino, ¿no?";
+		mes "¿El Rune-Midgarts Kingdom?";
 		next;
 		mes "[Elisa]";
-		mes "I hear that it was originally called the Rune-Midgard Kingdom, after our continent. However, for some reason, the name was changed to 'Rune-Midgarts.'";
+		mes "Escuché que originalmente se llamaba el Rune-Midgard Kingdom, tras nuestro continente. De todas formas, por alguna razón, el nombre cambio por 'Rune-Midgarts.'";
 		next;
 		mes "[Elisa]";
-		mes "It was obviously a wise decision, since too many people kept confusing the our continent with our kingdom. Weird, huh?";
+		mes "Fue una decisión inteligente, ya que demasiada gente se confundía nuestro continente con el reino. Extraño, ¿verdad?";
 		break;
 	case 4:
 		switch(rand(1,2)) {
 		case 1:
 			mes "[Elisa]";
-			mes "Rumors...?";
-			mes "Hmmmm, well...";
+			mes "¿Rumores...?";
+			mes "Hmmmm, bueno...";
 			next;
 			mes "[Elisa]";
-			mes "That's funny...";
-			mes "I, I can't think of anything. E-everything feels so fuzzy...";
+			mes "Eso es divertido...";
+			mes "Yo, yo no puedo pensar en nada. T-todo parece tan confuso...";
 			next;
 			mes "...";
 			next;
@@ -764,43 +764,43 @@ geffen_in,70,67,3	script	Waitress#elise	90,{
 			mes "......";
 			next;
 			mes "[William's Spirit]";
-			mes "^990000Stay away from my daughter, or I'll beat your brains out, punk! Elisa's gonna marry a doctor! Or a lawyer!^000000";
+			mes "^990000¡Mantente alejado de mi hija, o te reventaré a cabeza, basura! ¡Elisa se va a casar con un doctor! ¡O un abogado!^000000";
 			next;
 			mes "["+strcharinfo(0)+"]";
 			if (sex) {
-				mes "Y-y-y-yes, sir!";
+				mes "¡S-s-s-s-sí, señor!";
 				next;
-				mes "^3355FFThat was scary...!";
-				mes "It looks like a father's love endures forever, even in the afterlife.^000000";
+				mes "^3355FF¡Eso sería espantoso...!";
+				mes "Parece que el amor de un padre dura para siempre, incluso después de la muerte.^000000";
 			}
 			else {
-				mes "But...";
-				mes "I'm a girl!";
+				mes "Pero...";
+				mes "Soy una chica";
 				next;
 				mes "[William's Spirit]";
-				mes "^990000WHAT...?!";
-				mes "That's even worse!!^000000";
+				mes "^990000¡¿QUÉ...?!";
+				mes "¡¡Eso es aún peor!!^000000";
 				next;
-				mes "^3355FFThat was scary...!";
-				mes "It looks like a father's love endures forever, even in the afterlife.^000000";
+				mes "^3355FF¡Eso sería espantoso...!";
+				mes "Parece que el amor de un padre dura para siempre, incluso despues de la muerte.^000000";
 			}
 			break;
 		case 2:
 			mes "[William's Spirit]";
-			mes "^990000How dare you try to pick up on my precious daughter! Do you wish to taste an angry father's fury?!^000000";
+			mes "^990000¡Cómo te atreves a intentar ligar con mi preciosa hija! ¡¿Quieres probar la furia de un padre enfadado?!^000000";
 			next;
 			mes "[Elisa]";
-			mes "W-whoa...!";
-			mes "I'm so sorry!";
+			mes "¡W-whoa...!";
+			mes "¡Lo siento!";
 			next;
 			mes "[Elisa]";
-			mes "It's just...";
-			mes "The spirit of my father,";
-			mes "God rest his soul, is";
-			mes "a little overprotective!";
+			mes "Es sólo...";
+			mes "el espíritu de mi padre,";
+			mes "Dios descanse su alma, ¡es";
+			mes "un poco sobré protector!";
 			next;
-			mes "^3355FFYou step away.";
-			mes "Very. Carefully.^000000";
+			mes "^3355FFVete.";
+			mes "con mucho cuidado.^000000";
 			break;
 		}
 	}
@@ -809,65 +809,65 @@ geffen_in,70,67,3	script	Waitress#elise	90,{
 
 geffen_in,79,76,2	script	Merchant Daven	120,{
 	mes "[Merchant Daven]";
-	mes "I remember Geffen";
-	mes "back when it was boring. ";
+	mes "Recuerdo cuando Geffen";
+	mes "era aburrido. ";
 	next;
 	mes "[Merchant Daven]";
-	mes "But now there are Mages and Wizards, and a flourishing";
-	mes "economy in this town!";
+	mes "Pero ahora hay Mages y Wizards, y ¡una próspera economía";
+	mes "en esta ciudad!";
 	next;
-	switch(select("Mages...?:Economy?:Who are you?")) {
+	switch(select("Magos...?:Economia?:Quien eres tu?")) {
 	case 1:
 		if (BaseJob == Job_Mage) {
 			mes "[Merchant Daven]";
-			mes "Mages are wielders of magic. But you would know more about that topic now, wouldn't you?";
+			mes "Mages son los que manejan magia. Pero quieres saber más sobre este tema ahora, ¿quieres?";
 		}
 		else {
 			mes "[Merchant Daven]";
-			mes "Mages and Wizards are always carrying books and studying magic. That's just the way they are.";
+			mes "Mages y Wizards están siempre transportando libros y estudiando magia. Eso es lo único que hacen.";
 			next;
 			mes "[Merchant Daven]";
-			mes "There's a Magic School in the NorthWest part of the city for Novices interested in becoming Mages. There, they can learn the basics of magic.";
+			mes "Hay una Magic School en la parte NorthWest de la ciudad para los Novices interesados en convertirse en Mages. Allí, pueden aprender las bases de la magia.";
 			next;
 			mes "[Merchant Daven]";
-			mes "After becoming well experienced in the use of magic, Mages can become qualified to become Wizards.";
+			mes "Después de tener una buena experiencia en el uso de a magia, Mages pueden conseguir la calificación para ser Wizards.";
 			next;
 			mes "[Merchant Daven]";
-			mes "Wizards have access to more powerful and destructive magic spells than Mages. Mages can apply to become Wizards at the top of Geffen Tower.";
+			mes "Wizards tienen acceso a unos hechizos más poderosos y destructivos que los Mages. Mages pueden intentar ser Wizards en lo alto de la Geffen Tower.";
 		}
 		break;
 	case 2:
 		if (Class == Job_Blacksmith) {
 			mes "[Merchant Daven]";
-			mes "The economy...?";
-			mes "Why, that's all thanks to Blacksmiths! But you should know that already, shouldn't you?";
+			mes "¿La economía...?";
+			mes "Porque, ¡todo esto es gracias a los Blacksmiths! Pero ya deberías saberlo, ¿no?";
 		}
 		else {
 			mes "[Merchant Daven]";
-			mes "Well, I guess you can thank the Blacksmiths for the economy here in Geffen. Sure, they always dirty, sweaty, smelly and talk kind of rudely...";
+			mes "Bueno, espero que puedas agradecerle a los Blacksmiths por la economía en Geffen. Seguramente, ellos siempre están sucios, sudados, olorosos y hablan de forma un poco ruda...";
 			next;
 			mes "[Merchant Daven]";
-			mes "But they're hard working people. Also, the ores they refine and the weapons they create are high in demand.";
+			mes "pero son gente que trabajan duro. También, los minerales que refinan y las armas que crean son muy demandadas.";
 			next;
 			mes "[Merchant Daven]";
-			mes "Adventurers pay Blacksmiths lots of their hard earned zeny for the high quality weapons that only they can create.";
+			mes "Los aventureros pagan a los Blacksmiths muchos de los zeny que tanto les cuesta conseguir por las armas de alta calidad que pueden crear.";
 		}
 		break;
 	case 3:
 		mes "[Merchant Daven]";
-		mes "Me? I'm the world's most prettiest street merchant. Heh heh~";
+		mes "¿Yo? Soy la vendedora callejera más bonita del mundo. Heh heh~";
 		next;
 		select("...^EE0000Magnum Break^000000!");
 		if (Class == Job_Swordman) {
 			mes "[Merchant Daven]";
-			mes "Whoa, whoa!";
-			mes "It was just a joke!";
-			mes "Forgive me!";
+			mes "¡Whoa, whoa! ";
+			mes "¡Era una broma!";
+			mes "¡Perdóname!";
 		}
 		else {
 			mes "[Merchant Daven]";
-			mes "Magnum Break?";
-			mes "But you can't even do that, can you?";
+			mes "¿Magnum Break? ";
+			mes "Pero no puedes hacerlo, ¿puedes?";
 		}
 		break;
 	}
@@ -876,397 +876,397 @@ geffen_in,79,76,2	script	Merchant Daven	120,{
 	
 geffen_in,114,73,5	script	Hadenheim	709,{
 	mes "[Hans Hadenheim]";
-	mes "Man, the Rune-Midgard continent sure is big! How's it going, youngster?";
+	mes "Hombre, ¡el continente Rune-Midgard es grande! ¿Cómo vas a ir, jovencito?";
 	next;
 	mes "[Hans Hadenheim]";
-	mes "This Geffen sure is strange. But it was worth it to travel here all the way from the Schubaltzwald Republic.";
+	mes "Este Geffen seguramente es extraño. Pero era peor viajar hasta aquí desde la Schubaltzwald Republic.";
 	next;
-	if (select("Schubaltzwald Republic?:So, why are you traveling?") == 1) {
+	if (select("Schubaltzwald?:Entonces, porque estas trabajando?") == 1) {
 		mes "[Hans Hadenheim]";
-		mes "You...";
-		mes "Don't know the";
+		mes "Tú...";
+		mes "¿No conoces la";
 		mes "Schubaltzwald Republic?";
 		next;
 		mes "[Hans Hadenheim]";
-		mes "You know, ally of the Rune-Midgarts Kingdom. Um... Our capital city is Juno?";
+		mes "Lo sabes, aliados del Rune-Midgarts Kingdom. Um... ¿Nuestra capital es Juno?";
 		next;
 		mes "[Hans Hadenheim]";
-		mes "You should really";
-		mes "read up on your";
-		mes "world events!";
+		mes "¡Deberías";
+		mes "leer la historia";
+		mes "de nuestro mundo!";
 		close;
 	}
 	mes "[Hans Hadenheim]";
-	mes "Oh, you know, for business. It seems there's a lot of good money in foreign commerce.";
+	mes "Oh, sabes, para los negocios. Parece que hay mucho dinero que ganar en el comercio exterior.";
 	next;
 	mes "[Hans Hadenheim]";
-	mes "I mean, all these new cities are being discovered by explorers, so import and export trade is really booming!";
+	mes "Quiero decir, todas esas ciudades nuevas que son descubiertas por los exploradores, ¡de forma que la importación y exportación es muy floreciente!";
 	next;
 	mes "[Hans Handenheim]";
 	if (BaseJob == Job_Merchant)
-		mes "You're in the trading business yourself, right? So of course you'd understand that we're in a Golden Age of trade!";
+		mes "Estás en el negocio del comercio, ¿no? Así que entiendes que estamos en la ¡Edad Dorada del comercio!";
 	else if (Class == Job_Novice) {
-		mes "I guess...";
-		mes "Those kinds of concepts might be too high brow for a rookie like you.";
+		mes "Creo...";
+		mes "que ese tipo de cosas son demasiado elevados para un novato como tú.";
 	}
 	else
-		mes "Anyway...";
+		mes "Como sea...";
 	next;
 	mes "[Hans Hadenheim]";
-	mes "Have you been some of these new lands? They're really interesting and you can learn a lot of new things from these foreign cultures.";
+	mes "¿Has estado en alguna de esas nuevas tierras? Son muy interesantes y puedes aprender muchas cosas nuevas de esas culturas extranjeras.";
 	next;
 	mes "[Hans Hadenheim]";
-	mes "Still, if you want to go sightseeing, I personally recommend that you visit my hometown of Juno. It's quite beautiful, you know.";
+	mes "Aunque, si quieres ir a hacer alguna excursión. Personalmente recomiendo que visites mi ciudad natal de Juno. Es bastante bonita, sabes.";
 	close;
 }
 
 geffen_in,39,127,2	script	Psychic Advisor	704,{
 	mes "[Psychic Advisor]";
 	mes "Ah...";
-	mes "Don't tell me! You've come to have your fortune told, yes? I know,";
-	mes "I know... I can see the future! So what kind of fortune do you want?";
+	mes "¡No me digas! has venido a que te diga la fortuna, ¿sí? Lo sé,";
+	mes "lo sé... ¡puedo ver el futuro! Así que ¿que tipo de fortuna quieres?";
 	next;
-	switch(select("Life!:Love!:Money!:Grades!:Future!:Fashion!")) {
+	switch(select("Vida!:Amor!:Dinero!:Grados!:Futuro!:Moda!")) {
 	case 1:
 		mes "[Psychic Advisor]";
 		switch(rand(1,5)) {
 		case 1:
-			mes "Life...?";
-			mes "Wow, that's a really broad category. But let me contact some spirits of the spirit world and I'll see what I can do.";
+			mes "¿Vida...?";
+			mes "Wow, esa es una categoría muy amplia. Pero déjame ponerme en contacto con algunos espíritus del espíritu del mundo y veré lo que puedo hacer.";
 			next;
 			mes "[Psychic Advisor]";
 			mes "Hmmm...";
-			mes "Alright, I got something. Ummmm, you will live to be very, very old. How old you ask?";
+			mes "Bien, tengo algo. Ummmm, vivirás hasta ser muy, muy viejo. ¿Cuánto?";
 			next;
 			mes "[Psychic Advisor]";
-			mes "^333333*cough!*^000000ty-nine years old. Isn't that good news? That's a ripe old age, and you have plenty of blissful years left to enjoy.";
+			mes "^333333*¡cough!*^000000 y nueve años. ¿No es una buena noticia? Es una edad avanzada, y tienes una buena cantidad de años para disfrutar.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Also, you'll always be successful. You'll successfully win in life and you'll successfully lose in life!";
+			mes "También, siempre tendrás éxito. ¡Éxito cuando ganes en la vida y éxito cuando pierdas en la vida!";
 			next;
 			mes "[Psychic Advisor]";
-			mes "You might not understand that little nugget of wisdom now, but as you learn more about this crazy, crazy world, it will make more sense.";
+			mes "No entenderás este pequeño pedazo de sabiduría, pero como aprendes más sobre este loco, loco mundo, tendrá más sentido.";
 			next;
 			break;
 		case 2:
 			mes "Hmm...";
-			mes "What can I tell you about life? Let me contact the spirit world real quick~";
+			mes "¿Qué puedo decir sobre la vida? Déjame contactar con el espíritu del mundo verdaderamente rápido~";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Alright, I got it!";
-			mes "Your dreams";
-			mes "will come true!";
+			mes "De acuerdo, ¡lo tengo!";
+			mes "¡Tus sueños";
+			mes "se harán realidad!";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Of course, I'm not sure exactly which dreams will come true, but hopefully the good dreams that you've had will become reality, rather than any of your weird nightmares.";
+			mes "De acuerdo, no estoy seguro de que sueños se convertirán en realidad, pero ojala los buenos sueños se conviertan en realidad, mejor que cualquiera de las extrañas pesadillas.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Which dreams exactly? Well, the spirits are awfully reticent today. They're not exactly in the mood to talk. Spirits have lives too, you know. Wait, did that make any sense?";
+			mes "¿Qué sueños exactamente? Bueno, los espíritus están reticentes hoy. No están de buen humor para hablar. Los espíritus también tienen vidas, sabes. Espera, ¿tiene sentido?";
 			next;
 			break;
 		case 3:
-			mes "I sense that you may be about to make a rash decision that you might regret. I must advise you to slow down and think first.";
+			mes "Siento que tienes que tomar una decisión rápida que tendrás que rechazar. Te tengo que avisar que vayas despacio y lo pienses primero.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Although the pressure may be high, remember that any decision made in excitement is usually a bad decision. Take a deep breath and relax.";
+			mes "A pesar de que la presión será alta, recuerda que cualquier decisión tomada en un momento de excitación suele ser una mala decisión. Respira profundamente y relájate.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Even if you're running out of time, it's better to slowly plan things out so that you don't waste any of your efforts, or make costly mistakes.";
+			mes "Aunque no tengas tiempo, es mejor planear las cosas despacio para no malgastar tus esfuerzos, o te puede costar tener un error.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Remember that calm,";
-			mes "collected patience";
-			mes "is the key to overcoming crisis.";
+			mes "Recuerda calmarte,";
+			mes "recoge paciencia";
+			mes "es la clave para sobreponerte a la crisis.";
 			next;
 			break;
 		case 4:
-			mes "Hmmm... I sense that you are experiencing a loss of direction in life. Should you prioritize security or happiness?";
+			mes "Hmmm... siento que tienes experiencia en perder la dirección en tu vida. ¿Priorizarás la seguridad o la felicidad?";
 			next;
 			mes "[Psychic Advisor]";
-			mes "I suggest that you think fully and carefully before deciding what path is best for you. And remember, you can only learn from your mistakes.";
+			mes "Te sugiero que pienses con cuidado antes de decidir que es lo mejor para ti. Y recuerda, solo puedes aprender de tus errores.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "If you plan carefully and perform positive, constructive actions with a good attitude, you can";
-			mes "have it all!";
+			mes "Si lo planeas con cuidado y llevas a cabo acciones positivas y constructivas con una buena actitud ¡lo podrás";
+			mes "tener todo!";
 			next;
 			break;
 		case 5:
 			mes "Hmm...";
-			mes "I sense that you've had a quarrel with someone close to you. Someone for whom you care for dearly.";
+			mes "Siento que has tenido una riña con alguien cercano. Alguien a quien le tienes mucho cariño.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "You must take the initiative! Try and resolve this matter without getting too caught up in your emotions.";
+			mes "¡Tienes que tomar la iniciativa! Inténtalo y resuelve el problema sin dejarte llevar demasiado por tus emociones.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Try to make amends, swallow your pride and apologize sincerely if you have to. Isn't friendship worth it? I think so.";
+			mes "Intenta enmendarlo, trágate tu orgullo y discúlpate sinceramente. ¿No merece la pena la amistad? Creo eso";
 			next;
 		}
 		mes "[Psychic Advisor]";
-		mes "Well, I hope I settled any doubts you've had about the future. That is, after all, my job as a professional psychic consultant. Come back anytime~";
+		mes "Buen, espero que te haya solucionado algunas dudas que tuvieras sobre el futuro. Ese es, después de todo, mi trabajo como consultor psíquico profesional. Vuelve alguna vez~";
 		close;
 	case 2:
 		mes "[Psychic Advisor]";
 		switch(rand(1,4)) {
 		case 1:
-			mes "You want to know your Love fortune? Oh ho~ Then there must be somebody that you like! Come on, you can tell me!";
+			mes "¿Quieres saber tu fortuna en el amor? Oh ho~ ¡Entonces tiene que haber alguien que te guste! Venga, ¡me lo puedes decir!";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Oh right...";
-			mes "Um, I sense a strong love energy emanating from your soul. It's quite intimidating and pushes away the weak and the spineless.";
+			mes "Oh vale...";
+			mes "Um, siento una fuerte energía amorosa emanado de tu alma. Está un poco intimidada y empuja la debilidad y sin voluntad.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "So basically, I foresee that you'll only be attracting really strong people soon. You know, like professional athletes, bodybuilders, construction workers, that sort of thing.";
+			mes "Así que básicamente, te prevengo que pronto te atraerá solo gente verdaderamente fuerte. Sabes, como atletas profesionales, culturistas, trabajadores de la construcción, ese tipo de cosas.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "So if this is what you want, congratulations! Fortune smiles upon you with joy this day.";
+			mes "Así que si eso es lo que quieres, ¡enhorabuena! La fortuna te sonríe hasta que llegue ese día.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "But if this is the opposite of what you want, well, I'm sorry. Fortune smiles upon you with sarcasm this day. But it's not too late to change destiny!";
+			mes "Pero si quieres lo contrario, bueno, lo siento. La fortuna te sonríe con sarcasmo. ¡Pero no es demasiado tarde para cambiar el destino!";
 			next;
 			break;
 		case 2:
-			mes "Looooove, eh? ";
-			mes "Let me contact";
-			mes "the spirits for a second.";
+			mes "Amooooooor, ¿eh? ";
+			mes "Déjame contactar";
+			mes "con los espíritus un momento.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Ah! An old flame will return! I don't know if they'll fall in love with you again, ask you for money, or if that person's back for revenge...";
+			mes "¡Ah! ¡Vuelve una vieja llama! No sé si se enamorarán de ti otra vez, pregunta por el dinero, o si aquella persona volverá a vengarse...";
 			next;
 			mes "[Psychic Advisor]";
-			mes "But an old flame will definitely resurface in your life. Somehow. So if that's good news, congratulations! But, if that's bad news, then be careful!";
+			mes "Pero definitivamente una veja llama resurgirá en tu vida. Como sea. Así que si son buenas noticias, ¡enhorabuena! Pero, si son malas noticias, entonces ¡cuidado!";
 			next;
 			break;
 		case 3:
 			mes "Um...";
 			if (sex)
-				mes "The girl that you";
+				mes "¡La chica que tú";
 			else
-				mes "The boy that you";
-			mes "are currently seeing";
-			mes "is perfect for you!";
+				mes "¡El chico que tú";
+			mes "estás viendo en este momento";
+			mes "es excelente para ti!";
 			next;
-			switch(select("How did you know?:You're so wrong!:I'm single!")) {
+			switch(select("Como supiste?:Estas muy mal!:Soy soltero!")) {
 			case 1:
 				mes "[Psychic Advisor]";
-				mes "Well...";
-				mes "We psychics are pretty accurate at this kind of thing. And it's so good to see that you're really happy with your partner!";
+				mes "Bueno...";
+				mes "Los psíquicos somos bastante exactos en este tipo de cosas. Y !es tan bueno que seas verdaderamente feliz con tu compañera!";
 				close;
 			case 2:
 				mes "[Psychic Advisor]";
-				mes "You didn't let me finish my sentence. What I meant to say was...";
+				mes "No me dejaste acabar mi frase. Lo que quise decir era...";
 				next;
 				mes "[Psychic Advisor]"				;
 				if (sex)
-					mes "The girl that you";
+					mes "¡La chica con la que";
 				else
-					mes "The boy that you";
-				mes "are currently seeing is perfect for you if you want to live the rest of your life in utter misery!";
+					mes "¡El chico con el que";
+				mes "te estás viendo ahora es excelente para ti si quieres vivir el resto de tu vida hundido en la miseria!";
 				next;
 				mes "[Psychic Advisor]";
-				mes "But even if you break up, do it as soon as possible and try to be good friends after the matter.";
+				mes "Pero si piensas romper hazlo cuanto antes y trata de ser buenos amigos después del problema.";
 				next;
 				mes "[Psychic Advisor]";
-				mes "It'll make better people out of both of you. But that's just what I think.";
+				mes "Eso os hará mejores personas a ambos. Pero eso es sólo lo que creo.";
 				close;
 			case 3:
 				mes "[Psychic Advisor]";
-				mes "Oh...";
-				mes "Um, I'm sorry.";
-				mes "Sometimes, I get the future and the present mixed up. You know, since I'm always looking into the future...?";
+				mes "Oh... ";
+				mes "Um, lo siento.";
+				mes "A veces, se me mezcla el futuro y el presente. Sabes, ¿siempre buscando en el futuro...?";
 				next;
 				mes "[Psychic Advisor]";
 				if (sex) {
-					mes "What I meant to say was";
-					mes "^3355FFyou and the perfect woman will soon fall in love^000000. Yes, that's what I meant!";
+					mes "Lo que quiero decir era";
+					mes "^3355FFtú y la mujer perfecta pronto se enamoraran^000000. Sí, ¡eso es lo que quería decir!";
 				}
 				else {
-					mes "What I meant to say was";
-					mes "^3355FFyou will soon be swept off your feet by the perfect guy^000000. Yes, that's what I meant!";
+					mes "Lo que quería decir era que";
+					mes "^3355FFpronto se te irán los pies tras el chico perfecto^000000. Sí, ¡eso es lo que quería decir!";
 				}
 				close;
 			}
 			break;
 		case 4:
-			mes "Looking for romance, eh? Life can always use a little more excitement.";
+			mes "Buscando un romance, ¿eh? La vida siempre puede ser un poco más excitante.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "That's strange, I foresee a Love Triangle in your future. No, wait! A Love...";
-			mes "Decagon?";
+			mes "Esto es extraño, estoy viendo un triángulo amoroso en tu futuro. ¡No, espera! Un amor...";
+			mes "¿Decagon?";
 			next;
 			mes "[Psychic Advisor]";
-			mes "What's the shape with eleven sides? Now, you can't expect me to know that off the top of my head. I'm a psychic, not a mathematician!";
+			mes "¿Cuál es la forma que tiene once lados? Ahora, ¡no puedo esperar que saque todo lo que hay en mi cabeza!. ¡Soy un psíquico, no un matemático!";
 			next;
 		}
 		mes "[Psychic Advisor]";
-		mes "Love is always fun! Even in this bleak world, love surrounds us in its inviting glow. Treasure that person who is special to you, and come back for another reading!";
+		mes "¡El amor es siempre divertido! Aún en este mundo desolado, el amor nos rodea invitándonos débilmente. El tesoro es esa persona especial para ti, y ¡vuelve por otra lectura!";
 		close;
 	case 3:
 		mes "[Psychic Advisor]";
 		switch(rand(1,3)) {
 		case 1:
-			mes "Money? Well, you must be more fortunate in money than I am. After all, I sit here all day and give this service for free!";
+			mes "¿Dinero? Bueno, deberías ser más afortunado en el dinero que yo. Después de todo, me siento aquí todo el día y doy este servicio ¡gratis!";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Well...";
-			mes "Um, the spirits tell me that you might not win the lottery, no matter how many tickets you buy. I'm sorry, but it's true.";
+			mes "Bueno...";
+			mes "Um, los espíritus me dicen que no vas a ganar la lotería, no importa cuantos billetes te compres. Lo siento, pero es la verdad.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "But I just saved you a lifetime's worth of lottery tickets! That could be quite a hefty sum of money!";
+			mes "Pero ¡sólo te estoy salvando de una vida llena de billetes de lotería sin premio! ¡Eso podría se una buena cantidad de dinero!";
 			next;
 			break;
 		case 2:
-			mes "Ah yes. Let me contact the spirit world. They usually have sound financial advice, despite the fact that don't have any sort of economy over there.";
+			mes "Ah sí. Déjame contactar con el espíritu del mundo. Suelen dar avisos financieros, a pesar del hecho de que no tienen ningún tipo de economía aquí.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "First off, be accountable for your own money and use a budget that works for you. A good rule of thumb? For every ten zeny you earn, put one zeny aside and either save it or invest it for later.";
+			mes "Primero, sé responsable de tu propio dinero y usa un presupuesto que funcione. ¿Una buena norma? Por cada 10 zeny que ganes, aparta un zeny y guárdalo o inviértelo para más tarde.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "And whatever you do, don't work as a psychic advisor in Rune-Midgard. The real cash, apparently, is in discovering new countries. Why didn't I do that?!";
+			mes "Y cualquier cosa que hagas, no trabajes como vidente en Rune-Midgard. El verdadero efectivo, aparentemente, está en descubrir nuevos países. ¡¿Por qué no podía hacer eso?!";
 			next;
 			break;
 		case 3:
-			mes "So you want to know about money, eh? Let me commune with the spirits of the supernatural realm...";
+			mes "Así que quieres saber sobre el dinero, ¿eh? Déjame comunicarme con los espíritus en el plano sobrenatural...";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Ah yes. They are telling me that it's best to be moderate in all things. Certainly, you must make sure that your expeditures don't exceed your budget.";
+			mes "Ah sí. Me dicen que es mejor ser moderado en todo. Ciertamente, debes asegurarte que tus gastos no exceden tus presupuestos.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "However, you should also avoid gambling with your money. By that, I mean you should save and invest carefully. Don't be tempted into risky get-rich-quick schemes!";
+			mes "Como sea, también deberías evitar jugar con tu dinero. Por eso, te digo que ahorres e inviertas con cuidado. ¡Qué no te tienten los negocios arriesgados de hacerse rico rápido!";
 			next;
 			mes "[Psychic Advisor]";
-			mes "On the other hand, get-rich-not-as-quick schemes are okay, so long as you know what you are doing. I'm right, aren't I?";
+			mes "Por otro lado, los negocios de hacerte rico rápido están bien, en cuanto sabes lo que estás haciendo. Tengo razón, ¿no?";
 			next;
 		}
 		mes "[Psychic Advisor]";
-		mes "Well, you need money to live, but having money alone isn't living. Don't forget that there are other important things. And try not to stress out, okay?";
+		mes "Bueno, necesitas dinero para vivir, pero tener sólo dinero no es vivir. No te olvides que hay otras cosas importantes. E intenta no estresarte, ¿vale?";
 		close;
 	case 4:
 		mes "[Psychic Advisor]";
 		switch(rand(1,4)) {
 		case 1:
-			mes "Your grades? You're still in school? I'm impressed! Your eyes tell me you are rather mature for your age. Alright, let me contact the spirits...";
+			mes "¿Tus notas? ¿Aún estás en la escuela? ¡Estoy impresionado! Tus ojos me dicen que eres bastante maduro para tu edad. Está bien, déjame contactar con los espíritus...";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Hm? All the spirits said was 'Did you study?' Well, I guess I answered your question with yet another question!";
+			mes "¿Hm? Todos los espíritus decían '¿Estudiabas?' Bueno, ¡contesté a tu pregunta con otra pregunta!";
 			next;
 			break;
 		case 2:
-			mes "You're asking me about your grades? That's weird. I mean, they only ask about your report card at school, right?";
+			mes "¿Me preguntaste sobre tus notas? Es extraño, sólo tienen que preguntar sobre tus notas, ¿verdad?";
 			next;
 			mes "[Psychic Advisor]";
-			mes "An education is really important, but don't be discouraged if your grades aren't as good as you'd like.";
+			mes "La educación es muy importante, pero no te disgustes si tus notas no son tan buenas como quieres.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Perhaps your style of learning isn't really supported by your school, or maybe you're not that interested in academics. Understandable.";
+			mes "Quizás tu forma de estudiar no sea compatible con la escuela, o quizás no estás interesado en los estudios. Lo entiendo.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "The spirits tell me that you should experiment with different learning styles, so that you can make sure that you get the grades that you want.";
+			mes "Los espíritus me dicen que deberías experimentar con diferentes formas de estudiar, así que puedes estar seguro que tienes las notas que quieres.";
 			next;
 			mes "[Psychic Advisor]";
 			mes "Yeah...";
-			mes "The spirits are";
-			mes "awfully lazy today.";
+			mes "Los espíritus";
+			mes "están terriblemente vagos hoy";
 			next;
 			break;
 		case 3:
 			mes "^FF0000F MINUS^000000!";
-			mes "Hahahahahahaha~!";
+			mes "¡Hahahahahahaha~!";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Oh, I'm sorry, I just love doing that. Okay, let me ask the spirits for real this time. Hmmmm...";
+			mes "Oh, lo siento, sólo me encanta hacer eso. De acuerdo, déjame preguntar a los espíritus de verdad esta vez... Hmmmm...";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Hmm. The spirits are being awfully rude today. They're saying, 'If you're so worried about your grades, why don't you ask your teacher?'";
+			mes "Hmm. Los espíritus están siendo terriblemente bruscos hoy. Están diciendo, 'Si estás tan preocupado por las notas, ¿por qué no se lo preguntas a tu profesor?'";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Now that I think about it, they do have a point. Why don't you ask your teacher, professor or whatever to see if you have any problems?";
+			mes "Ahora que lo pienso, ellos tienen un punto. ¿Por qué no se lo preguntas a tu profesora, maestro o cualquiera para ver si tienes algún problema?";
 			next;
 			mes "[Psychic Advisor]";
-			mes "I mean, they're being paid to help you. And well, my service is free. So... Yeah.";
+			mes "Quiero decir, a ellos les pagan por ayudarte. Y bueno, mi servicio es gratis. Así... Yeah.";
 			next;
 			break;
 		case 4:
-			mes "Oh cool!";
-			mes "I sense that you will soon be receiving straight A's...";
-			mes "In Effort!";
+			mes "Oh ¡grandioso!";
+			mes "Siento que pronto vas a recibir cantidad de buenas notas...";
+			mes "¡Un esfuerzo!";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Now, I couldn't tell you what your real grades are. You might be destined to get an A in every class or subject, but if I told you that...";
+			mes "Ahora, no podría decirte cuales son tus auténticas notas. Pareces estar destinado a tener buenas notas en toda clase o materia, pero si te dijera eso...";
 			next;
 			mes "[Psychic Advisor]";
-			mes "You'd probably get cocky, slack off on studying, fail your classes and cause a time paradox. I mean, I have to actually be in the future to actually see it, you know?";
+			mes "Podrías volverte un engreído, relajarte en los estudios, suspender tus clases y provocar una paradoja temporal. Quiero decir, yo estoy viendo como se ve el futuro ahora, ¿sabes?";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Instead of worrying about time paradoxes, why don't you make your own destiny?";
+			mes "En vez de estar preocupado por las paradojas temporales, ¿por qué no te forjas tu propio destino?";
 			next;
 		}
 		mes "[Psychic Advisor]";
-		mes "Well, in any case, concentrating on your studies is tough, but it can be rewarding. I hope you do well in whatever you choose to do~";
+		mes "Bueno, en cualquier caso, concentrarte en los estudios es duro, pero puede ser gratificante. Deseo que te vaya bien en lo que escojas~";
 		close;
 	case 5:
-		mes "The future? I thought it was implied that any fortune I tell you is about the future in the specific field that you choose.";
+		mes "¿El futuro? Creo que era implícito que cualquier cosa que te dijera sobre tu fortuna era sobre el futuro en el tipo específico que eligieras.";
 		next;
 		mes "[Psychic Advisor]";
-		mes "I guess you want to know about the future in general. Let me commune with the spirits, and we'll see what they have to say, okay?";
+		mes "Creo que quieres saber sobre el futuro en general. Déjame comunicarme con los espíritus y veremos lo que tienen que decir, ¿vale?";
 		next;
 		mes "[Psychic Advisor]";
 		switch(rand(1,4)) {
 		case 1:
 			mes "Hmm...";
-			mes "In the future, Sex, Violence, and Rock and Roll are completely abolished. Mankind experiences an era of complete peace and utter boredom.";
+			mes "En el futuro el sexo, la violencia y el Rock&Roll se abolirán totalmente. La humanidad experimentará una época de completa paz y aburrimiento.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "I don't know how far in the future that will occur, but it better not happen soon!";
+			mes "No sé como está de lejos ese futuro, pero ¡es mejor que no sea pronto!";
 			next;
 			break;
 		case 2:
-			mes "In the future, Earth is protected by a single giant robot: Plutonium Overdrive Ignition Negatron G a.k.a POING.";
+			mes "En el futuro, la Tierra estará protegida por un robot gigante: Plutonium Overdrive Ignition Negatron G a.k.un POING.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "POING fights off many Kylorian invasions for years, until it is finally defeated by Dr. Hubris' Mechanical Overlord: Nyxltron 47.";
+			mes "POING rechazará muchas invasiones Kylorian durante años, hasta que finalmente los vence Dr. Hubris' Mechanical Overlord: Nyxltron 47.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Luckily, Doctor Pyeus finishes the Gravitron Oblivion Drive for the Plutonium Overdrive Ignition Negatron G system just in time.";
+			mes "Afortunadamente, Doctor Pyeus acabará el Gravitron Oblivion Drive para el sistema Plutonium Overdrive Ignition Negatron G justo a tiempo.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "And so, POING rises again, reborn as the Automatic Hero: GOD-POING. Of course, Nyxltron 47 is destroyed.";
+			mes "Y entonces, POING se levantará de nuevo, renaciendo como el Automatic Hero: GOD-POING. Entonces, Nyxltron 47 es destruido.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "That's probably the most important thing you'll ever learn about the future. Trust me, the rest of it's boring.";
+			mes "Esa es, probablemente, la cosa más importante que aprenderás nunca sobre el futuro. Créeme, el resto es aburrido.";
 			next;
 			break;
 		case 3:
-			mes "In the future, believe it or not, the internet will be replaced by a giant brain. I don't know how, but trust me, this brain's huge.";
+			mes "En el futuro, lo creas o no, internet será reemplazado por un cerebro gigante. No sé como, pero créeme, ese cerebro es enorme.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Thanks to the number of internet web journals, this brain becomes peaceful, and decides not to take over the world as it originally planned.";
+			mes "Gracias al número de los periódicos web, ese cerebro le hace pacífico y decide no destruir el mundo como tenía planeado originalmente.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Yes...";
-			mes "This weird brain thing definitely becomes a source for good, a loving benefactor to the human race, so long as people keep writing personal entries on the internet.";
+			mes "Sí...";
+			mes "Este extraño cerebro definitivamente se convierte en una fuente de bondad, un amoroso benefactor de la humanidad, mientras la gente siga escribiendo cosas personales en internet.";
 			next;
 			break;
 		case 4:
-			mes "In the future, they genetically engineer all sorts of plants.";
-			mes "So many kinds! It's crazy I tell you!";
+			mes "En el futuro, diseñarán genéticamente todo tipo de plantas.";
+			mes "¡Muchos tipos! ¡Es una locura!";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Eventually, they create trees that grow celebrity impersonators. Today, it looks like a miracle of science, and a threat to Hollywood starlets.";
+			mes "De hecho, crean árboles en los que crecen imitaciones de los famosos. Hoy en día, parece un milagro de la ciencia y una amenaza para las estrellas de Hollywood.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "However, the people who buy these trees are the same kind who who wear those really tacky shirts...";
+			mes "Como sea, la gente que compre esos árboles son del mismo tipo que compran esas camisas estrafalarias...";
 			next;
 			mes "[Psychic Advisor]";
-			mes "You know, the kind with a lame sense of humor where it will have the word 'Cat-o-strophic' and there's this little kitten dressed like a mad scientist or something.";
+			mes "Sabes, del tipo con un sentido del humor vulgar donde cabe la palabra 'Cat-o-strophic' y hay un pequeño gato vestido como un científico loco o algo.";
 			next;
 		}
 		mes "[Psychic Advisor]";
-		mes "Well...";
-		mes "That's my prediction. Can you really argue with the wisdom of the spirit world?";
+		mes "Bueno...";
+		mes "Esa es mi predicción. ¿Realmente puedes discutir con la sabiduría del espíritu de la tierra?";
 		close;
 	case 6:
-		mes "Fashion...?";
-		mes "What does that have to do with matters of the supernatural? Well, um, let me contact the spirits. Ah! Here we go...";
+		mes "¿Moda...?";
+		mes "¿Qué  hay que hacer con los problemas sobrenaturales? Bueno, um, déjame contactar con los espíritus. ¡Ah! Aquí vamos...";
 		next;
 		mes "[Psychic Advisor]";
 		switch(rand(1,5)) {
@@ -1278,124 +1278,124 @@ geffen_in,39,127,2	script	Psychic Advisor	704,{
 			mes "......";
 			next;
 			mes "[Psychic Advisor]";
-			mes "I'm seeing something...";
-			mes "It looks like, a...";
+			mes "Estoy viendo algo....";
+			mes "Es como un...";
 			next;
 			mes "[Psychic Advisor]";
-			mes "A...";
-			mes "A... Fish?";
-			mes "On someone's head?";
+			mes "Un...";
+			mes "un...¿pez?";
+			mes "¿En la cabeza de alguien?";
 			next;
 			mes "[Psychic Advisor]";
 			mes "...";
-			mes "It was the most horrible vision!";
+			mes "¡Era la visión más horrible!";
 			next;
 			break;
 		case 2:
-			mes "It feels nice to wear expensive headgears! And it's nice to wear fancy clothing too! But remember...";
+			mes "¡Se siente bien usando sombreros caros! ¡Y está bien vestir ropas de fantasía también! Pero recuerda...";
 			next;
 			mes "[Psychic Advisor]";
-			mes "No matter how much zeny you may put into your wardrobe, you'll look silly unless you match the things you wear.";
+			mes "no importa cuanto zeny te gastes en tu guardarropa, parecerás idiota si no conjuntas las cosas que llevas.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Now, here's a good example of a mismatched outfit. Imagine some Crusader wearing a Crown, Elven ears and an Iron Cain.";
+			mes "Ahora, aquí hay un ejemplo de desastre de combinación. Imagina a algún Crusader usando un Crown, Elven ears y un Iron Cain.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Instead of looking cool, they look sort of like an Evil Keebler Prince. Spooky, huh?";
+			mes "En logar de parecer descarado, se parecen a un tipo de Evil Keebler Prince. Spooky, ¿huh?";
 			next;
 			break;
 		case 3:
-			mes "I predict...";
-			mes "That Cowboy Hats will be very popular among female";
+			mes "¡Predigo...";
+			mes "que los Cowboy Hats serán muy populares entre las mujeres";
 			mes "Super Novices";
-			mes "very soon!";
+			mes "muy pronto!";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Come on, wouldn't you agree? Cowboy Hats look great on Super Novices!";
+			mes "Venga, ¿no estás de acuerdo? ¡Cowboy Hats se ven genial en las Super Novices!";
 			next;
 			break;
 		case 4:
-			mes "Sometimes, it's a cute idea to follow a theme. Like, if you wear both Angel Wing and Angel Wing Ears at the same time.";
+			mes "A veces, es una buena idea seguir un tema... Como, si usas a la vez  Angel Wing y Angel Wing Ear.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Of course, that might be too expensive for most people, but you get the idea.";
+			mes "Está bien, eso sería demasiado caro para la mayoría de la gente, pero entiendes la idea.";
 			next;
 			break;
 		case 5:
-			mes "I now predict that the Sombrero will be come very popular when a mass group of Bards form a guild in which the members only wear Sombreros.";
+			mes "Ahora predigo que el Sombrero será muy popular cuando un gran grupo de Bards forman un gremio en el que los miembros sólo usan Sombreros.";
 			next;
 			mes "[Psychic Advisor]";
-			mes "Or was it the Feathered Bonnet that's supposed to skyrocket in popularity? Both of those hats are just sooo stylish, especially on Bards...";
+			mes "¿O era el Feathered Bonnet lo que se supone que subirá en popularidad? Ambos sombreros tienen taaaaaanto estiiiiiilo, especialmente en los Bards...";
 			next;
 		}
 		mes "[Psychic Advisor]";
-		mes "Well...";
-		mes "We psychic consultants aren't really trained for fashion matters, but I hope I was at least a little bit of help to you.";
+		mes "Bueno...";
+		mes "Los videntes no estamos muy entrenados en la moda, pero espero que al menos fuera un poco de ayuda.";
 		close;
 	}
 }
 	
 geffen_in,109,72,2	script	Monster Scholar	90,{
 	mes "[Estheres]";
-	mes "Hello, I'm the resident expert of Monsterology here in Geffen. Is there anything in particular that you're curious about?";
+	mes "Hola, soy el residente experto en Monsterology aquí en Geffen. ¿Hay algo en particular en que estés interesado?";
 	next;
-	switch(select("Monsters in the Area.:Recent Monster News.:Era of Monsters:Jellopy Theory.")) {
+	switch(select("Los monstruos en la zona:Noticias de monstruos recientes:La Era de los Monstruos:Teoría Jellopy")) {
 	case 1:
 		mes "[Estheres]";
-		mes "Well, as you may already know, since Wizards and Mages train in Geffen, monsters tend to stay away from the city. So tired adventurers are welcome to rest here.";
+		mes "Bueno, como deberías de saber, desde que Wizards y Mages entrenan en Geffen, los monstruos tienden a alejarse de la ciudad. Así que los aventureros cansados son bienvenidos para descansar aquí.";
 		next;
 		mes "[Estheres]";
-		mes "Still, if you want to seek out strong monsters, you can cross the bridge to the West and fight Kobolds.";
+		mes "Así que, si quieres buscar monstruos fuertes, puedes cruzar el puente hacia el Oeste y luchar con los Kobolds.";
 		next;
 		mes "[Estheres]";		
 		if (BaseLevel > 40)
-			mes "You look strong enough for that kind of challenge. But if you see anyone more reckless cross the Western bridge, you might want to give them a warning.";
+			mes "Pareces suficientemente fuerte para ese tipo de batalla. Pero si ves a alguien más temerario cruzar el Western bridge, deberías advertirles.";
 		else 
-			mes "Um, but if you're planning to go there, you better not go alone. I really recommend that you be well prepared if you're gonna fight those kinds of monsters.";
+			mes "Um, pero si planeas ir allí, mejor no vayas solo. Te recomiendo estar bien preparado si vas a pelear con ese tipo de monstruos.";
 		break;
 	case 2:
 		mes "[Estheres]";
-		mes "Recent news?";
-		mes "Well, the Juno Monster Musuem is now open to the public. They have a fascinating exhibit and various monsters are now on display!";
+		mes "¿Noticias recientes?";
+		mes "Bueno, el Juno Monster Museum está abierto al público ahora. Tiene una exhibición fascinante y ¡varios monstruos están ahora en la exposición!";
 		next;
 		mes "[Estheres]";
-		mes "I mean, I've read about all sorts of monsters in the Prontera and Juno Libraries, and encountered a few in the wild, but now I get a chance to see some strong monsters in real life!";
+		mes "Quiero decir, he leído sobre todo tipo de monstruos en Prontera y Juno Libraries y encontrarme con unos pocos salvajes, pero ahora tengo la oportunidad de ¡ver algún monstruo fuerte en la vida real!";
 		next;
 		mes "[Estheres]";
-		mes "What's also exciting is the exploration achieved by you adventurers for the Rune-Midgarts Kingdom.";
+		mes "Lo que también es bastante excitante es la exploración que realizan los aventureros del Rune-Midgarts Kingdom.";
 		next;
 		mes "[Estheres]";
-		mes "When a new land is discovered, there are usually unique monsters that are indigenous to that area.";
+		mes "Cuando se descubre una nueva tierra, normalmente hay monstruos únicos propios de esa área.";
 		next;
 		mes "[Estheres]";
-		mes "So new monsters are basically being discovered all the time! The variety of creatures that roam this world is really quite fascinating.";
+		mes "¡Así que básicamente se descubren nuevos monstruos todo el tiempo! La variedad de criaturas que vagan por el mundo es verdaderamente fascinante.";
 		break;
 	case 3:
 		mes "[Estheres]";
-		mes "The truth is that monsters have existed since ancient times. The Era of Monsters was when the power of the monsters was at its peak.";
+		mes "La verdad es que los monstruos existen desde los tiempos antiguos. Fue la Era de los Monsters cuando el poder de los monstruos era máximo.";
 		next;
 		mes "[Estheres]";
-		mes "They've plagued humans for a long time, but were completely annihilated in a great war between mankind and the monsters.";
+		mes "Fueron una plaga para los humanos durante mucho tiempo, pero fueron completamente aniquilados en una gran guerra entre la humanidad y los monstruos.";
 		next;
 		mes "[Estheres]";
-		mes "However, as the balance of nature has changed, the monsters have inevitably returned. Not too many people know this, but most monsters were gentle creatures at one time. It's sad, really...";
+		mes "Como sea, como el balance de la naturaleza ha cambiado, los monstruos volvieron inevitablemente. No hay mucha gente que sepa esto, pero muchos monstruos eran criaturas amables. Es triste, pero real...";
 		break;
 	case 4:
 		mes "[Estheres]";
-		mes "Ah yes, Jellopy.";
-		mes "It seems that almost every monster around is composed of Jellopy. But is it just a crystallization made by some monsters, or is it... More?";
+		mes "Ah sí, Jellopy.";
+		mes "Parece que al menos todos los monstruos de alrededor están compuestos de Jellopy. Pero es sólo una cristalización hecha por algunos monstruos, o es... ¿más?";
 		next;
 		mes "[Estheres]";
-		mes "From our research of ancient monsters and studies of recently discovered monsters, it seems that that traces of Jellopy cannot be found in stronger beasts.";
+		mes "De nuestra investigación de los antiguos monstruos y los estudios de monstruos recientemente descubiertos, parece que esas trazas de Jellopy no pueden encontrarse en las bestias más fuertes.";
 		next;
 		mes "[Estheres]";
-		mes "Still, may of us believe that there might be some relation to Jellopy and monsters, although it may be hard to believe that there is any.";
+		mes "Al menos, podemos creer que debe haber alguna relación de la Jellopy y los monstruos, aunque sea difícil de creer que hay algo.";
 		next;
 		mes "[Estheres]";
-		mes "It's possible that Jellopy may be linked to a monster's personality and strength. So, if you mixed Jellopy with something, you'd create a stronger monster.";
+		mes "Es posible que Jellopy esté conectado a la personalidad y fuerza de los monstruos. Así que, si mezclas Jellopy con algo, crearías un monstruo fuerte.";
 		next;
 		mes "[Estheres]";
-		mes "Of course, doing that kind of experimentation just seems dangerous. You might be able to unleash some really scary monsters into the world...";
+		mes "De acuerdo, hacer ese tipo de experimentos puede parecer peligroso. Deberías ser capaz de soltar algunos monstruos verdaderamente terribles en el mundo...";
 		break;
 	}
 	close;
@@ -1405,21 +1405,21 @@ geffen_in,109,72,2	script	Monster Scholar	90,{
 
 geffen,203,146,5	script	Citizen	97,{
 	mes "[Citizen]";
-	mes "There was a skillful weaponsmith";
-	mes "in Al De Baran who had 4 sons.";
-	mes "Unfortunately he lost all of his sons";
-	mes "while developing a powerful weapon.";
-	mes "The father survived alone from the tragedy.";
+	mes "Hay un armero muy hábil";
+	mes "en Al De Baran que tenía 4 hijos.";
+	mes "Desafortunadamente los perdió a todos";
+	mes "cuando estaba desarrollando una poderosa arma.";
+	mes "El padre fue el único superviviente de la tragedia.";
 	next;
 	mes "[Citizen]";
-	mes "How sad it will be for the father...";
-	mes "Because of the incident, the weaponsmith";
-	mes "retired from his work and hid himself somewhere.";
-	mes "After that, no one could ever see";
-	mes "the powerful weapon that he and his sons were developing.";
+	mes "¡Qué triste fue para el padre...";
+	mes "después del incidente, el armero";
+	mes "se retiró de su trabajo y se escondió en algún sitio.";
+	mes "Después de eso, nadie volvió a ver";
+	mes "el arma que estaba desarrollando junto a sus hijos.";
 	next;
 	mes "[Citizen]";
-	mes "I don't think that 4 sons of him";
-	mes "went to the heaven with the anxiety.";
+	mes "No creo que sus cuatro hijos";
+	mes "fueran al cielo por su preocupación.";
 	close;
 }

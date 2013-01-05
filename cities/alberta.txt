@@ -20,16 +20,16 @@
 
 alberta,97,51,0	script	Fabian	84,{
 	mes "[Fabian]";
-	mes "Man... When you travel all around the world, you'll hear of some crazy things.";
+	mes "Hombre.. Cuando tu viajas alrededor de todo el mundo, escuchas cosas locas.";
 	next;
 	mes "[Fabian]";
-	mes "Once, I heard that there are Cards which contain the power of monsters. If someone happens to get their hands on a card, they'll be able to use that monster's power.";
+	mes "Como, una vez escuche que las Cartas las cuales contienen el poder de los monstruos. Si alguien pone sus manos en una carta, el podra usar el poder del monstruo";
 	next;
 	mes "[Fabian]";
-	mes "I'm guessing it's some sort of fad or scam, where they make you collect all the cards or whatever. I mean, how can a card really hold the power of a monster?!";
+	mes "Pienso que es un tipo de estafa o mentira, quieren hacerte colectar todas las cartas o lo que sea. Me refiero, como una carta puede contener el poder de un monstruo?!";
 	next;
 	mes "[Fabian]";
-	mes "Seriously...";
+	mes "Seriamente...";
 	close;
 }
 

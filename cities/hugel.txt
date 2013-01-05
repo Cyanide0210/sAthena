@@ -33,72 +33,72 @@
 //============================================================
 hugel,189,143,5	script	Young Man	898,{
 	mes "[Young Man]";
-	mes "Huh. So that giant";
-	mes "air pouch can make";
-	mes "people float in midair?";
-	mes "Would filling my tummy";
-	mes "with air work the same way?";
+	mes "Huh. ¿Entonces esa bolsa";
+	mes "de aire gigante puede";
+	mes "hacer a la gente flotar en medio del aire?";
+	mes "¿Podría mi barriguita llena";
+	mes "de aire funcionar de la misma manera?";
 	close;
 }
 
 hugel,126,151,3	script	Emily	90,{
 	mes "[Emily]";
-	mes "I feel so blessed to";
-	mes "live in this quant, little";
-	mes "town. It's so beautiful, and";
-	mes "everyone here is so nice~";
+	mes "Me siento bendecido de";
+	mes "vivir en esta pequeña";
+	mes "ciudad. Es tan bella, y";
+	mes "todo el mundo aquí es tan agradable~";
 	next;
 	mes "[Emily]";
-	mes "For some reason, my older";
-	mes "sister wants to move out of";
-	mes "Hugel as soon as she can. She";
-	mes "Says that she's getting creeped";
-	mes "out by the people that live here.";
-	mes "Don't you think that sounds weird?";
+	mes "Por alguna razón, mi hermana";
+	mes "mayor se quiere mudar de";
+	mes "Hugel tan pronto como pueda. Dice";
+	mes "que está horripilada de";
+	mes "la gente que vive aquí.";
+	mes "¿No crees que eso suena raro?";
 	close;
 }
  
 hugel,86,165,5	script	Kayplas	896,{
 	mes "[Kayplas]";
-	mes "Ooh, I really want to";
-	mes "have that red bottle.";
-	mes "I should ask my mom";
-	mes "to buy me one. It doesn't";
-	mes "look too expensive, does it?";
+	mes "Ooh, yo realmente quiero";
+	mes "tener aquella botella roja.";
+	mes "Debería preguntar a mi madre";
+	mes "para comprarme una. No";
+	mes "parece demasiado cara, ¿lo es?";
 	close;
 }
 
 hugel,71,197,3	script	Lisa	90,{
 	mes "[Lisa]";
-	mes "Hugel is a pretty";
-	mes "small, homely village.";
-	mes "Everyone knows everyone,";
-	mes "everybody knows what";
-	mes "everybody else is doing.";
-	mes "It's so suffocating!";
+	mes "Hugel es un poco";
+	mes "pequeña, una ciudad hogareña.";
+	mes "Todo el mundo se conoce,";
+	mes "todo el mundo sabe lo que";
+	mes "el resto está haciendo.";
+	mes "¡Es muy sofocante!";
 	next;
 	mes "[Lisa]";
-	mes "There's no privacy in";
-	mes "small towns. Someday,";
-	mes "I wanna go out and";
-	mes "live in the big city~";
+	mes "No hay privacidad en";
+	mes "las pequeñas ciudades. Algún día,";
+	mes "me gustaría irme y";
+	mes "vivir en la gran ciudad~";
 	close;
 }
 
 hugel,169,112,5	script	Old Nikki	892,{
 	mes "[Old Nikki]";
-	mes "You must not be from";
-	mes "around here. Ah, you're";
-	mes "an adventurer, right? Do";
-	mes "you know how I could tell?";
+	mes "Tú no debes ser de";
+	mes "aquí. Ah, eres";
+	mes "un aventurero, ¿no?";
+	mes "¿Sabes lo que quiero decir?";
 	next;
 	mes "[Old Nikki]";
-	mes "It's because everyone";
-	mes "who's lived here starts";
-	mes "to look alike after a while.";
-	mes "And you certainly don't look";
-	mes "as old as us. Well, have";
-	mes "a nice day, adventurer~";
+	mes "Es porque todo el mundo";
+	mes "que vive aquí empieza a";
+	mes "parecerse después de un tiempo.";
+	mes "Y ciertamente no pareces";
+	mes "tan viejo como nosotros. Bueno, que";
+	mes "tengas un buen día, aventurero~";
 	close;
 }
 
@@ -106,36 +106,36 @@ hugel,168,183,5	script	Bismarc	118,{
 	mes "[Bismarc]";
 	mes "^808080*Ghyklk*";
 	mes "*Huk Hukk*^000000";
-	mes "When will my";
-	mes "o-order arrive...?";
+	mes "¿Cuándo llegará";
+	mes "mi p-pedido...?";
 	next;
 	mes "[Bismarc]";
-	mes "The poison in";
-	mes "my body... the pain...";
-	mes "excruciating... L-lord...";
+	mes "El veneno en";
+	mes "mi cuerpo... el dolor...";
+	mes "horrible... S-señor...";
 	next;
 	mes "[Bismarc]";
-	mes "When is the";
-	mes "antidote gonna";
-	mes "get here?!";
+	mes "¿Cuándo va a";
+	mes "estar el antídoto";
+	mes "aquí?";
 	close;
 }
 
 hugel,175,115,5	script	Marius	897,{
 	mes "[Marius]";
-	mes "Yes, I'm an old man, but";
-	mes "I can lick a whippersnapper";
-	mes "like you any day of the week!";
-	mes "You know, Hugel's got a longer";
-	mes "life expectancy than all the other towns. You wanna know why?";
+	mes "Sí, soy un hombre mayor, pero";
+	mes "¡Puedo vencer a un mocoso";
+	mes "como tú como cualquier día de la semana!";
+	mes "Sabes, Hugel tiene una esperanza";
+	mes "de vida mayor que las otras ciudades. ¿Quieres saber por qué?";
 	next;
 	mes "[Marius]";
-	mes "It's because the old";
-	mes "coots in this town refuse";
-	mes "to just lay down and die!";
-	mes "Now, c'mon! Lemme show";
-	mes "you how strong I am! Let's";
-	mes "wrestle or something, kid~";
+	mes "¡Porque los viejos";
+	mes "de esta ciudad se niegan";
+	mes "simplemente a tumbarse y morir!";
+	mes "Ahora, ¡venga! ¡Déjame mostrarte";
+	mes "lo fuerte que soy! Déjame";
+	mes "luchar o algo, chico~";
 	close;
 }
 
@@ -143,82 +143,82 @@ hugel,175,115,5	script	Marius	897,{
 //============================================================
 hu_in01,111,386,4	script	Chris	86,{
 	mes "[Chris]";
-	mes "You know, the people don't";
-	mes "fight harmful monsters, they";
-	mes "just protect themselves by";
-	mes "equipping armor. That's";
-	mes "just the way they are.";
+	mes "Sabes, la gente no";
+	mes "lucha con los monstruos perjudiciales,";
+	mes "simplemente se protegen con";
+	mes "una armadura equipada. Ese";
+	mes "es la forma en que lo hacen.";
 	next;
 	mes "[Chris]";
-	mes "If you want to buy";
-	mes "some nicer armors,";
-	mes "then I suggest buying";
-	mes "some in a bigger city.";
+	mes "Si quieres comprar";
+	mes "algunas armaduras mejores,";
+	mes "entonces te sugiero que compres";
+	mes "alguna en una ciudad más grande.";
 	close;
 }
 
 hu_in01,23,311,4	script	Party Supplies Shop	898,{
 	mes "[Shopkeeper]";
-	mes "Welcome to the party supplies";
-	mes "shop!";
-	mes "Why don't you enjoy some";
-	mes "spectacular fireworks with your";
-	mes "friends?";
-	mes "We can provide you with 5 of them";
-	mes "at 500 zeny.";
+	mes "¡Bienvenido a la Party Supplies";
+	mes "Shop!";
+	mes "¿Por qué no te entretienes con algunos";
+	mes "espectaculares fuegos artificiales con tus";
+	mes "amigos?";
+	mes "Podemos suministrarle 5 por";
+	mes "500 zeny.";
 	next;
-	switch (select("Buy:Cancel")) {
+	switch (select("Comprar:Cancelar")) {
 		case 1:
 			if (Zeny < 500) { 
 				mes "[Shopkeeper]";
-				mes "I am sorry, but you don't have";
-				mes "enough money~";
+				mes "Lo siento, pero no tienes";
+				mes "suficiente dinero~";
 				close;
 			}
 			set Zeny,Zeny-500;
 			getitem 12018,5;	// Fire_Cracker
 			mes "[Shopkeeper]";
-			mes "Here you go!";
-			mes "Have fun with them!";
+			mes "¡Aquí vamos!";
+			mes "¡Diviértase con ellos!";
 			close;
 		case 2:
 			mes "[Shopkeeper]";
-			mes "Thank you, please come again.";
+			mes "Gracias, por favor vuelva.";
 			close;
 	}	
 }
 
 hu_in01,18,94,0	script	A Part-Timer#1	49,{
 	mes "[Luda]";
-	mes "Welcome to the";
+	mes "Bienvenido a la";
 	mes "Shrine Expedition Office.";
-	mes "I'm Luda, a part-time";
-	mes "assistant. My job is to";
-	mes "keep this office neat and";
-	mes "clean, but look at this place!";
+	mes "Soy Luda, una empleada";
+	mes "a tiempo parcial. Mi trabajo es";
+	mes "mantener esta oficina pulcra";
+	mes "y limpia, ¡pero mira este sitio!";
 	next;
 	mes "[Luda]";
-	mes "Still, I think I can";
-	mes "handle this difficult task~";
-	mes "This room is the office for";
-	mes "the Schwaltzvalt Republic team,";
-	mes "and the other is for the Rune-";
-	mes "Midgarts Kingdom team.";
+	mes "Aún así, creo que puedo";
+	mes "hacerlo sin dificultad~";
+	mes "Esta habitación es la oficina del";
+	mes "equipo de Schwaltzvalt Republic,";
+	mes "y la otra es la del grupo de Rune-";
+	mes "Midgarts Kingdom";
 	next;
 	mes "[Luda]";
-	mes "I have to clean both rooms,";
-	mes "so they keep me pretty busy.";
-	mes "Why don't you volunteer for";
-	mes "their expedition? I know they";
-	mes "can't really pay you, but it's";
-	mes "a great chance to explore~";
+	mes "Tengo que limpiar las dos habitaciones,";
+	mes "así que me tienen un poco ocupada.";
+	mes "¿Por qué no te haces voluntario";
+	mes "para sus expediciones? Sé que ellos";
+	mes "no pueden pagarte, pero es";
+	mes "una gran posibilidad para explorar~";
 	close;
 }
 
 hu_in01,26,77,4	script	A Part-Timer#2	50,{
-	mes "^3355FFThis part-timer is";
-	mes "completely engrossed";
-	mes "in his task of organizing";
-	mes "files and books.^000000";
+	mes "^3355FFEsta empleada a tiempo parcial";
+	mes "está completamente entregada";
+	mes "a sus tareas de organizar";
+	mes "archivos y libros.^000000";
 	close;
 }

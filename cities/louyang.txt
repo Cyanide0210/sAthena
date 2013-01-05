@@ -22,54 +22,54 @@
 //============================================================
 alberta,245,45,3	script	Girl#0lou	815,{
 	mes "[Girl]";
-	mes "La la la la~";
-	mes "I feel so good today~";
-	mes "I'm in the mood to go";
-	mes "on a picnic somewhere~";
-	mes "La la la la~";
+	mes "La la la la la~";
+	mes "Me siento tan bien hoy~";
+	mes "Estoy de ánimo para ir";
+	mes "a un día de campo, a cualquier lugar~";
+	mes "La la la la la~";
 	next;
-	switch(select("About Louyang.:Go to Louyang.:Cancel.")) {
+	switch(select("Acerca de Louyang.:Ir Louyang.:Cancelar.")) {
 	case 1:
 		mes "[Girl]";
-		mes "Oh, are you";
-		mes "interested in Louyang?";
-		mes "It's a nice place to";
-		mes "visit for travelers.";
+		mes "Oh, ¿Estás";
+		mes "interesado en Louyang?";
+		mes "Es un lugar agradable para";
+		mes "que visiten los viajeros.";
 		next;
 		mes "[Girl]";
-		mes "Louyang has a long history";
-		mes "with stories of ancient magic and warriors. It's also rumored that many evil beasts roam the";
-		mes "Louyang area.";
+		mes "Louyang tiene una larga historia";
+		mes "con relatos sobre magia antigua y valientes guerreros. También se rumora que muchas bestias malvadas deambulaban";
+		mes "por las áreas de Louyang.";
 		next;
 		mes "[Girl]";
-		mes "You can find cure-all medicines, mysterious occurrences, and";
-		mes "martial artists all in one place!";
+		mes "¡Puedes encontrar medicinas que curan cualquier enfermedad, acontecimientos misteriosos, y";
+		mes "artistas marciales, todo en un mismo lugar!";
 		next;
 		mes "[Girl]";
-		mes "I used to train in the martial arts every morning back when I was in Louyang. I might not look like it, but I'm pretty strong!";
+		mes "Solía entrenarme en las artes marciales cada mañana cuando estaba en Louyang. ¡No podría parecerme a ellos, pero soy muy fuerte!";
 		next;
 		mes "[Girl]";
-		mes "If you want to visit";
-		mes "Louyang, feel free to";
-		mes "tell me. Just give me";
-		mes "some Zeny and we'll go~";
+		mes "Si quieres visitar";
+		mes "Louyang, siéntete libre";
+		mes "de decírmelo. Sólo dame";
+		mes "algo de Zenny e iremos~";
 		close;
 	case 2:
 		mes "[Girl]";
-		mes "I'll guide you to";
-		mes "Louyang right away.";
-		mes "For my service, I am";
-		mes "accepting 10,000 Zeny.";
+		mes "Yo te guiaré a";
+		mes "Louyang enseguida.";
+		mes "Por mi servicio,";
+		mes "acepto 10,000 Zeny.";
 		next;
 		mes "[Girl]";
-		mes "So, are you ready?";
+		mes "Así que... ¿Estás listo?";
 		next;
-		if (select("Yes!:No.") == 1) {
+		if (select("Si!:No.") == 1) {
 			if (Zeny > 9999) {
 				mes "[Girl]";
-				mes "Okay~";
-				mes "Ready!";
-				mes "Have fun!";
+				mes "Muy bien~";
+				mes "¡Listo!";
+				mes "¡Diviértete!";
 				close2;
 				set zeny,zeny-10000;
 				warp "lou_fild01",190,101;
@@ -77,56 +77,56 @@ alberta,245,45,3	script	Girl#0lou	815,{
 			}
 			mes "[Girl]";
 			mes "...";
-			mes "You don't seem";
-			mes "to have 10,000 Zeny...";
-			mes "Go get some money first!";
+			mes "No parece";
+			mes "que tengas 10,000 Zeny...";
+			mes "¡Ve y consigue algo de dinero primero!";
 			close;
 		}
 		mes "[Girl]";
-		mes "Oh...";
-		mes "It's so disappointing";
-		mes "to hear you say that.";
-		mes "Well, have a good day!";
+		mes "Oh.....";
+		mes "Es tan decepcionante";
+		mes "escucharte decir eso.";
+		mes "Bien, ¡que tengas un buen día!";
 		close;
 	case 3:
 		mes "[Girl]";
-		mes "Oh...";
-		mes "Have a good day!";
+		mes "Oh.....";
+		mes "¡Ten un buen día!";
 		close;
 	}
 }
 
 lou_fild01,190,100,7	script	Girl#1lou	815,{
 	mes "[Girl]";
-	mes "Would you";
-	mes "like to go back";
-	mes "to Alberta?";
+	mes "¿Te gustaría";
+	mes "regresar";
+	mes "a Alberta?";
 	next;
-	if (select("Go back to Alberta.:Cancel.") == 1) {
+	if (select("Regresar a Alberta.:Cancelar.") == 1) {
 		mes "[Girl]";
-		mes "I hope to";
-		mes "see you again!";
-		mes "Bye bye!";
+		mes "¡Espero";
+		mes "verte de nuevo!";
+		mes "¡Adiós!";
 		close2;
 		warp "alberta",235,45;
 		end;
 	}
 	mes "[Girl]";
-	mes "If you like this";
-	mes "area, why don't you";
-	mes "stay and enjoy the";
-	mes "the food and the sights!";
+	mes "Si te gusta esta";
+	mes "área, por qué no";
+	mes "te quedas y disfrutas la";
+	mes "¡la comida y los monumentos!";
 	next;
 	if (Sex) {
 		mes "[Girl]";
-		mes "And by sights...";
-		mes "I mean girls!";
+		mes "Y por monumentos...";
+		mes "me refiero a las ¡mujeres!";
 		mes "Tee hee~";
 	}
 	else {
 		mes "[Girl]";
-		mes "And the boys here";
-		mes "aren't bad looking~";
+		mes "Y los chicos de aquí";
+		mes "tampoco no se ven mal~";
 	}
 	close;
 }
@@ -136,10 +136,10 @@ lou_fild01,190,100,7	script	Girl#1lou	815,{
 louyang,297,167,2	script	Muscular Woman#lou	815,{
 	if (!Sex) {
 		mes "[Zhi Ching Li]";
-		mes "All the members of the Maiden Palace, including myself and our master, are all female.";
+		mes "Todos los miembros del Palacio Maiden, incluyéndome a mí y nuestra ama, somos todas mujeres.";
 		next;
 		mes "[Zhi Ching Li]";
-		mes "Recently we've had a hard time recruiting new members, so I came here to check if there's any woman who wishes to join us.";
+		mes "Recientemente hemos tenido una temporada difícil reclutando a nuevos miembros, así que vine aquí para comprobar si hay alguna mujer que desee unírsenos.";
 		emotion e_dots;
 		close;
 	}
@@ -151,102 +151,102 @@ louyang,297,167,2	script	Muscular Woman#lou	815,{
 	mes "......";
 	next;
 	mes "[Zhi Ching Li]";
-	mes "Please leave me";
-	mes "alone, I'm busy.";
+	mes "Por favor déjame";
+	mes "sola, estoy ocupada.";
 	close;
 }
 
 louyang,274,136,4	script	Powerful-looking guy#lou	819,{
 	mes "[Akiira]";
-	mes "I am practicing my 'Claw of Dragon.' I not only need to use the power of my fists, I must also condition myself spiritually.";
+	mes "Estoy practicando mi \"Garra de Dragón\". No sólo tengo que usar el poder de mis puños, también debo condicionarme espiritualmente.";
 	next;
 	mes "[Akiira]";
-	mes "Every martial art requires";
-	mes "spiritual training since the";
-	mes "mind controls the body.";
-	mes "If you've trained yourself spiritually, you can easily";
-	mes "use any part of the body!";
+	mes "Cada Arte Marcial requiere";
+	mes "entrenamiento espiritual, ya que";
+	mes "la mente controla el cuerpo.";
+	mes "¡Si te has entrenado espiritualmente, puedes usar";
+	mes "fácilmente cualquier parte del cuerpo!";
 	next;
 	mes "[Akiira]";
-	mes "If you are considering";
-	mes "studying the martial arts, you should first attain knowledge before jumping into the";
-	mes "physical training.";
+	mes "Si estás considerando";
+	mes "estudiar las artes marciales, debes primero lograr el conocimiento, antes de saltar al";
+	mes "entrenamiento físico.";
 	next;
 	mes "[Akiira]";
-	mes "Learn about the martial arts";
-	mes "and meditate on life's truths. First, you must find peace of mind before you can hope to master the mind and body.";
+	mes "Aprende sobre las artes marciales";
+	mes "y medita sobre las verdades de la vida. Primero, debes encontrar la paz mental antes de que puedas dominar la mente y el cuerpo.";
 	close;
 }
 
 louyang,276,136,4	script	Fist master#lou	819,{
 	mes "[Zhiang Xiau Ji]";
-	mes "Finally...";
-	mes "I have mastered";
-	mes "the 'Claw of Dragon!'";
+	mes "Finalmente...";
+	mes "He dominado";
+	mes "la \"¡Garra de Dragón!\"";
 	next;
 	mes "[Zhiang Xiau Ji]";
-	mes "Although there are eight basic steps, I had to learn the history of this art, and meditate, focusing on my spiritual improvement,";
-	mes "for three years.";
+	mes "Aunque hayan ocho pasos básicos, tuve que aprender la historia de este arte y meditar, enfocándome en mejorar espiritualmente,";
+	mes "por tres años.";
 	next;
 	mes "[Zhiang Xiau Ji]";
-	mes "After that, my master finally started to give me the physical training so I could use the eight steps of the Claw of Dragon. I've devoted myself to this art for thirty years.";
+	mes "Después de eso, mi maestro finalmente comenzó a darme la educación física así podría usar los ocho pasos de la Garra de Dragón. Me he dedicado a este arte por treinta años.";
 	next;
 	mes "[Zhiang Xiau Ji]";
-	mes "I'm very proud that I've";
-	mes "mastered this art ten years earlier than I expected. Now, I need to study this form and improve it by correcting its weak points and enhancing its strengths.";
+	mes "Estoy muy orgulloso pues he";
+	mes "dominado este arte, diez años antes de lo que esperaba. Ahora, necesito estudiar esta forma y mejorarla corrigiendo sus puntos débiles y mejorando sus fortalezas.";
 	next;
 	mes "[Zhiang Xiau Ji]";
-	mes "I guess that would take me about ten years. But I'm not disheartened by that at all.";
+	mes "Pienso que me tomaría aproximadamente diez años. Pero no me desanimo por eso en lo absoluto.";
 	next;
 	mes "[Zhiang Xiau Ji]";
-	mes "When you're learning a martial art, you can't rush yourself and learn everything in a short period of time. It's impossible! Plus, that isn't the essence of art...";
+	mes "Cuando estas aprendiendo un arte marcial, no puedes apresurarte y aprender todo en un período de tiempo reducido. ¡Es imposible! Además de que, esa no es la esencia del arte...";
 	close;
 }
 
 louyang,276,133,0	script	Trainee#1lou::LouTrainee	819,{
 	mes "[Trainee]";
-	mes "Yeeeyap~!";
-	mes "Taaaaaah~~!!";
-	mes "Hooo~.";
+	mes "¡Yeeyap~!";
+	mes "¡¡Taaaaah~~!!";
+	mes "Hooooo~.";
 	close;
 }
 
 louyang,276,131,0	script	Trainee#2lou	819,{
 	mes "[Trainee]";
-	mes "Tah Tah Tah!";
-	mes "Taaaaaah~~!!";
-	mes "Schwooooooo~";
+	mes "¡Tah Tah Tah!";
+	mes "¡¡Taaaaah~~!!";
+	mes "Schwoooooo~";
 	close;
 }
 
 louyang,276,129,0	script	Trainee#3lou	819,{
 	mes "[Trainee]";
-	mes "Si!";
-	mes "Ayah!!";
+	mes "¡¡Si!!";
+	mes "¡¡¡Ayah!!!";
 	close;
 }
 
 louyang,274,133,0	script	Trainee#4lou	819,{
 	mes "[Trainee]";
-	mes "Dergh!";
-	mes "Dergh!";
-	mes "Schwa--!";
+	mes "¡Dergh!";
+	mes "¡Dergh!";
+	mes "¡Schwaaa--!";
 	close;
 }
 
 louyang,274,131,0	script	Trainee#5lou	819,{
 	mes "[Trainee]";
-	mes "Yah Yah Yah!";
-	mes "Taaaaaah~~!!";
-	mes "Wataaaaaaaah!";
+	mes "¡Yah Yah Yah!";
+	mes "¡¡Taaaaah~~!!";
+	mes "¡Wataaaaaah!";
 	close;
 }
 
 louyang,274,129,0	script	Trainee#6lou	819,{
 	mes "[Trainee]";
-	mes "Yeeeyap~!";
-	mes "Taaaaaah~~!!";
-	mes "Hooo~";
+	mes "¡Yeeyap~!";
+	mes "¡¡Taaaah~~!!";
+	mes "Hooooo~";
 	close;
 }
 
@@ -261,53 +261,53 @@ louyang,272,129,0	duplicate(LouTrainee)	Trainee#12lou	819
 //============================================================
 lou_in01,25,23,5	script	Friendly Looking Lady#lo	817,{
 	mes "[Hong Miao]";
-	mes "Welcome.";
+	mes "Bienvenido.";
 	next;
 	mes "[Hong Miao]";
-	mes "This is an elevator which leads";
-	mes "to the Observation Tower. We are providing you a safe and fast transfer service for an affordable fee. Would you like to use this service?";
+	mes "Este es un elevador que conduce";
+	mes "a la Torre de Observación. Le proporcionamos un traslado seguro, rápido y económico. ¿Te gustaría utilizar este servicio?";
 	next;
-	switch(select("Information.:Yes.:Maybe next time.")) {
+	switch(select("Informacion.:Si.:Quizas despues.")) {
 	case 1:
 		mes "[Hong Miao]";
-		mes "After many suggestions and proposals were sent to the Louyang tourism office, the Observation Tower was built so tourists can enjoy the sights.";
+		mes "Después de que muchas sugerencias y ofertas, fueron enviadas a la oficina de turismo de Louyang. La Torre de Observación fue construida para que los turistas pudieran disfrutar de los monumentos.";
 		next;
 		mes "[Hong Miao]";
-		mes "Due to the geographical";
-		mes "features of Louyang, it's difficult to enjoy the breath taking view that our land has to offer.";
+		mes "Debido a las características";
+		mes "geográficas de Louyang, es difícil disfrutar la magnífica vista de lo que nuestra tierra tiene que ofrecer.";
 		next;
 		mes "[Hong Miao]";
-		mes "You can come up to the tower by taking the elevator right here. We are providing this quick and safe transfer service for 500 zeny per person.";
+		mes "Puedes subir a la torre tomando el elevador directamente aquí. Proporcionamos este servicio de traslado rápido y seguro, sólo por 500 Zeny por persona.";
 		close;
 	case 2:
 		if (Zeny < 500) {
 			mes "[Hong Miao]";
-			mes "I'm sorry, but you do not have enough zeny. I hope you'll come back later to enjoy the Observation Tower. Have a good day.";
+			mes "Lo siento, pero no tienes suficiente Zeny. Espero que vuelvas más tarde para disfrutar de la Torre de Observación. ¡Que tengas un buen día!";
 			close;
 		}
 		mes "[Hong Miao]";
-		mes "Thank you for your patronage.";
-		mes "We are trying to provide you with the best of service. Please";
-		mes "come again.";
+		mes "Gracias por tu patrocinio.";
+		mes "Tratamos de darte un el mejor servicio. Por favor";
+		mes "vuelve pronto.";
 		next;
 		set zeny,zeny-500;
 		warp "lou_in01",17,19;
 		end;
 	case 3:
 		mes "[Hong Miao]";
-		mes "Please come";
-		mes "back later.";
-		mes "Have a good day.";
+		mes "Por favor regresa";
+		mes "más tarde.";
+		mes "Que tengas un bien día.";
 		close;
 	}
 }
 
 louyang,84,254,0	script	Exit#lou	111,{
-	mes "^3355FFThere is some sort";
-	mes "of descent apparatus.";
-	mes "Would you like to use it?^000000";
+	mes "^3355FFHay un tipo de";
+	mes "aparato de descenso.";
+	mes "¿Te gustaría usarlo?^000000";
 	next;
-	if (select("Yes.:No.") == 1) {
+	if (select("Si.:No.") == 1) {
 		if (rand(1,100) == 34) {
 			percentheal -99,0;
 			warp "louyang",86,269;
